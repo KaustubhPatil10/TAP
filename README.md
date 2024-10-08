@@ -12,4 +12,3 @@
   -TFLECommerce_functions 
   -TFLECommerce_stored_procedures
   -Trial_stored_procedures
-  <!-- toc -->
