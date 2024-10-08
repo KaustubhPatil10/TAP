@@ -1,4 +1,4 @@
-SRC - FOLDER contains : 
+# SRC - FOLDER contains : 
   Source code for FRONT END using REDUX.
   Created on 02nd October 2024.
 # CREATED DATABASE EMPLOYEE ID AND TRIAL:
