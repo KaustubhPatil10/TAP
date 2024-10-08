@@ -1,6 +1,7 @@
 # SRC - FOLDER contains : 
   Source code for FRONT END using REDUX.
   Created on 02nd October 2024.
+## My_data  
 # CREATED DATABASE EMPLOYEE ID AND TRIAL:
   Performed SELF join in EMPLOYEE Table.
   Performed Joins on TRIAL table.
