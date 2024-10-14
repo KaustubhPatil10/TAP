@@ -49,4 +49,4 @@ END */
 
 -- invoking  A STORED PROCEDURE
 
-CALL spfundtransfer(13,12 ,4000);
+CALL spfundtransfer(12,13 ,4000);

@@ -273,7 +273,6 @@ CREATE TABLE shipping_addresses (
 );
 
 -- Create subscriptions table
-Drop table subscriptions;
 CREATE TABLE subscriptions (
     subscription_id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT NOT NULL,
