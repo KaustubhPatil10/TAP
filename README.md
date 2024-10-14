@@ -15,4 +15,6 @@
 ### Created BANKING DATABASE:
   * Performed stored procedure i.e. SPFUNDTRANSFER on Banking( fund transfer from one account to another account)
 
-    
+### Working on TFLECommerce DATABASE:
+  * found few bugs while working on triggers.
+  * altered products table with last_modified (field) as it was used in triggers.
