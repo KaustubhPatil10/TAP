@@ -31,6 +31,10 @@ CREATE TABLE products (
         ON UPDATE CASCADE
         ON DELETE SET NULL
 );
+
+ALTER TABLE products
+ADD COLUMN last_modified TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
+
 -- Create orders table
 CREATE TABLE orders (
     id INT AUTO_INCREMENT PRIMARY KEY,
