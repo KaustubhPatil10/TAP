@@ -18,3 +18,5 @@
 ### Working on TFLECommerce DATABASE:
   * found few bugs while working on triggers.
   * altered products table with last_modified (field) as it was used in triggers.
+### USED TRANSACTIONS IN TFLECOMMERCE.
+  * Converted first two transactions into store procedures for repetative use.
