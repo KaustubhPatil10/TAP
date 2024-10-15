@@ -217,4 +217,3 @@ DELIMITER ;
 
 -- ----------------------------------- need to change the name of the trigger  variable as it already exists on trigger 1.
 
-
