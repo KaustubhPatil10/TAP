@@ -16,15 +16,15 @@ use tflecommerce;
 -- 1. Trigger to Update Stock After an Order is Placed
 DELIMITER //
 
-CREATE TRIGGER after_order_insert
-AFTER INSERT ON orders
+CREATE TRIGGER after_order_items_insert
+AFTER INSERT ON order_items
 FOR EACH ROW
 BEGIN
     -- Update stock for each item in the order
     UPDATE products p
     JOIN order_items oi ON p.id = oi.item_id
-    SET p.stock = p.stock - oi.quantity
-    WHERE oi.order_id = NEW.id;
+    SET p.stock = p.stock - NEW.quantity
+    WHERE p.id= NEW.item_id;
 END//
 
 DELIMITER ;
@@ -134,13 +134,14 @@ BEFORE DELETE ON orders
 FOR EACH ROW
 BEGIN
     -- Insert the order into the archived_orders table
-    INSERT INTO archived_orders (id, order_date, customer_id, total_amount, status)
-    VALUES (OLD.id, OLD.order_date, OLD.customer_id, OLD.total_amount, OLD.status);
+    INSERT INTO archieved_orders (order_date, customer_id, total_amount, status)
+    VALUES (OLD.order_date, OLD.customer_id, OLD.total_amount, OLD.status);
 END//
 
 DELIMITER ;
 
--- -----------------------------------------------------------need to discuss with sir on this archieved_orders table. --
+-- -----------------------------------need to discuss with sir on this archieved_orders table. --
+-- drop trigger before_order_delete;
 
 -- 8. Trigger to Validate User Email Format
 

@@ -324,6 +324,14 @@ CREATE TABLE IF NOT EXISTS returns (
         ON DELETE CASCADE
 );
 
+create table archieved_orders (
+	order_id int auto_increment primary key,
+    order_date datetime not null,
+    customer_id int not null,
+    total_amount decimal(10,2) not null,
+    status varchar(50)
+);
+
 -- Indexes for performance improvement
 CREATE INDEX idx_username ON users(username);
 CREATE INDEX idx_product_name ON products(name);
@@ -801,3 +809,6 @@ CREATE TABLE shipment_items (
         ON UPDATE CASCADE
         ON DELETE CASCADE
 );
+
+use tflecommerce;
+delete from orders where orders.id = 2;
