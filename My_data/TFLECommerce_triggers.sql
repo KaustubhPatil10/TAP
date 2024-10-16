@@ -188,7 +188,7 @@ BEGIN
     IF EXISTS (
         SELECT 1
         FROM closed_dates
-        WHERE date = NEW.order_date
+        WHERE close_date = NEW.order_date
     ) THEN
         SIGNAL SQLSTATE '45000'
         SET MESSAGE_TEXT = 'Cannot place orders on closed dates.';
@@ -196,7 +196,9 @@ BEGIN
 END//
 
 DELIMITER ;
-
+-- drop trigger prevent_order_insert;
+INSERT INTO orders(customer_id,order_date,shipping_address,total_amount,shipping_date,status) values
+(1,'2024-10-15',"pune", 12000, now(), "shipped");
 -- ----------------------------------- need to change the name of the trigger  variable as it already exists on trigger 5.
 
 
@@ -218,3 +220,193 @@ DELIMITER ;
 
 -- ----------------------------------- need to change the name of the trigger  variable as it already exists on trigger 1.
 
+-- 11. Trigger for Insert on Products 
+DROP TRIGGER after_product_insert;
+
+	DELIMITER //
+
+	CREATE TRIGGER after_product_insert
+	AFTER INSERT ON inventory
+	FOR EACH ROW 
+	BEGIN
+	INSERT INTO product_audit(Product_id, action_type, new_stock_quantity, action_timestamp )
+	VALUES(NEW.product_id, 'INSERT', NEW.stock_quantity , NOW());
+	END//
+
+	DELIMITER ; 
+
+INSERT INTO inventory(product_id, stock_quantity) VALUES
+(17, 25);
+
+-- 12 Trigger for UPDATE on Products
+
+
+DROP TRIGGER before_product_update;
+
+DELIMITER //
+
+CREATE TRIGGER product_update
+BEFORE UPDATE ON inventory
+FOR EACH ROW
+BEGIN
+    INSERT INTO product_audit (product_id, action_type, old_stock_quantity, new_stock_quantity)
+    VALUES (OLD.product_id, 'UPDATE', OLD.stock_quantity, NEW.stock_quantity);
+END//
+
+DELIMITER ;
+
+
+update inventory
+SET stock_quantity = 700
+WHERE product_id=2;
+
+
+
+-- 13 Trigger for DELETE on Products
+DROP TRIGGER after_product_delete;
+DELIMITER //
+
+CREATE TRIGGER after_product_delete
+AFTER DELETE ON inventory
+FOR EACH ROW
+BEGIN
+INSERT INTO product_audit(product_id,action_type,old_stock_quantity,new_stock_quantity)
+VALUES(product_id,'DELETE', old.stock_quantity, 0);
+END //
+
+DELIMITER ;
+-- drop trigger after_product_delete;
+select * from product_audit;
+DELETE FROM inventory WHERE product_id=17;
+
+
+-- 14 Trigger for DELETE on `order_items
+DROP TRIGGER after_order_item_delete;
+
+DELIMITER //
+
+CREATE TRIGGER after_order_item_delete
+AFTER DELETE ON order_items
+FOR EACH ROW
+BEGIN
+    UPDATE inventory
+    SET stock_quantity = stock_quantity + OLD.quantity
+    WHERE product_id = OLD.item_id;
+END//
+
+DELIMITER ;
+
+DELETE FROM order_items WHERE id = 13;
+
+SELECT * FROM inventory WHERE product_id = 10;
+
+
+
+--  15 Automatically Set Order Status Based on Inventory Levels
+-- Trigger for AFTER INSERT on order_items
+
+DROP TRIGGER IF EXISTS after_order_item_insert;
+
+
+DELIMITER //
+
+CREATE TRIGGER after_order_item_insert
+AFTER INSERT ON order_items
+FOR EACH ROW
+BEGIN
+    DECLARE available_stock INT;
+
+    -- Check the stock for the newly inserted item
+    SELECT stock INTO available_stock
+    FROM products
+    WHERE id = NEW.item_id;
+
+    -- If stock is insufficient, set the order status to "Cancelled"
+    IF available_stock < NEW.quantity THEN
+        UPDATE orders
+        SET status = 'Cancelled'
+        WHERE id = NEW.order_id;
+    END IF;
+END//
+
+DELIMITER ;
+
+
+SELECT * FROM orders WHERE id = 2;
+SELECT stock FROM products WHERE id = 2;
+
+INSERT INTO order_items (order_id, item_id, quantity) VALUES (2, 2, 50);
+
+
+-- 16 Update Total Order Price
+-- Trigger for AFTER INSERT on order_items
+
+DROP TRIGGER IF EXISTS after_order_item_insert;
+
+DELIMITER //
+
+CREATE TRIGGER after_order_item_insert
+AFTER INSERT ON order_items
+FOR EACH ROW
+BEGIN
+    DECLARE total_amount DECIMAL(10, 2);
+
+    -- Calculate the new total price for the order using the price from products table
+    SELECT SUM(p.price * oi.quantity) INTO total_amount
+    FROM order_items oi
+    JOIN products p ON oi.item_id = p.id
+    WHERE oi.order_id = NEW.order_id;
+
+    -- Update the order's total price
+    UPDATE orders
+    SET total_amount = total_amount
+    WHERE id = NEW.order_id;
+END//
+
+DELIMITER ;
+
+
+INSERT INTO order_items (order_id, item_id, quantity) VALUES
+(5, 5, 5); -- 2 Smartphones
+
+SELECT * FROM orders WHERE id = 5;
+
+
+
+-- 17 Automatically Update total_amount in orders Table After Deleting an Item from order_items.
+
+DROP TRIGGER IF EXISTS after_order_item_deleted;
+
+DELIMITER //
+
+CREATE TRIGGER after_order_item_deleted
+AFTER DELETE ON order_items
+FOR EACH ROW
+BEGIN
+    DECLARE total_amount DECIMAL(10, 2);
+
+    -- Calculate the new total amount for the order
+    SELECT SUM(p.price * oi.quantity) INTO total_amount
+    FROM order_items oi
+    JOIN products p ON oi.item_id = p.id
+    WHERE oi.order_id = OLD.order_id;
+
+    -- Update the order's total amount
+    UPDATE orders
+    SET total_amount = total_amount
+    WHERE id = OLD.order_id;
+END//
+
+DELIMITER ;
+
+
+-- Delete a row from the order_items table
+DELETE FROM order_items WHERE order_id = 1 AND item_id = 4;
+
+-- Check the updated state of the orders table
+SELECT * FROM orders;
+
+-- Check the updated state of the order_items table
+SELECT * FROM order_items;
+
+truncate table order_items;

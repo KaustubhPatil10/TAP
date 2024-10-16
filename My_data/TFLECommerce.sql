@@ -102,10 +102,14 @@ CREATE TABLE payments (
 );
 
 -- Create inventory table
+DROP TABLE inventory;
+DROP TABLE product_audit;
+
 CREATE TABLE inventory (
-    product_id INT PRIMARY KEY,
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    product_id INT ,
     stock_quantity INT,
-    FOREIGN KEY (product_id) REFERENCES products(id)
+    CONSTRAINT fk_product_id FOREIGN KEY (product_id) REFERENCES products(id)
         ON UPDATE CASCADE
         ON DELETE CASCADE
 );
@@ -121,16 +125,14 @@ CREATE TABLE purchase_orders (
 );
 
 -- Create product_audit table
+drop table product_audit;
 CREATE TABLE product_audit (
     audit_id INT AUTO_INCREMENT PRIMARY KEY,
-    product_id INT,
+    inventory_id INT,
     action_type ENUM('INSERT', 'UPDATE', 'DELETE'),
     old_stock_quantity INT,
     new_stock_quantity INT,
-    action_timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (product_id) REFERENCES inventory(product_id)
-        ON UPDATE CASCADE
-        ON DELETE CASCADE
+    action_timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
 -- Create discount_codes table
@@ -331,6 +333,13 @@ create table archieved_orders (
     total_amount decimal(10,2) not null,
     status varchar(50)
 );
+
+create table closed_dates(
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    close_date DATE not null,
+    event_name varchar(255)
+);	
+
 
 -- Indexes for performance improvement
 CREATE INDEX idx_username ON users(username);
@@ -772,7 +781,19 @@ INSERT INTO billing_adjustments (user_id, adjustment_amount, adjustment_date, re
 (3, -5.50, '2024-05-30 08:00:00', 'Refund for overcharge'),
 (4, 25.00, '2024-07-10 12:00:00', 'Late fee');
 
+INSERT INTO purchase_orders(order_id,quantity,order_date,product_id)values
+(2,50,'2024-07-25',1),
+(3,50,'2024-07-25',1),
+(4,50,'2024-07-25',1),
+(5,50,'2024-07-25',1),
+(6,50,'2024-07-25',1);
 
+insert into product_audit(inventory_id, action_type,old_stock_quantity,new_stock_quantity,action_timestamp)values
+(2,'INSERT',40,20,'2025-08-21'),
+(3,'UPDATE',40,20,'2025-08-21'),
+(4,'DELETE',40,20,'2025-08-21'),
+(5,'INSERT',40,20,'2025-08-21'),
+(6,'UPDATE',40,20,'2025-08-21');
 
 -- Insert sample data into the `returns` table
 INSERT INTO returns (order_id, product_id, return_reason, return_date, status) VALUES
@@ -797,18 +818,9 @@ INSERT INTO returns (order_id, product_id, return_reason, return_date, status) V
 (19, 13, 'Incorrect item received', '2024-08-14', 'Pending'),  -- Return for Camera in Order 19
 (20, 20, 'Defective item', '2024-08-15', 'Pending');  -- Return for Bluetooth Earbuds in Order 20
 
-CREATE TABLE shipment_items (
-    shipment_item_id INT AUTO_INCREMENT PRIMARY KEY,
-    shipment_id INT NOT NULL,
-    product_id INT NOT NULL,
-    quantity INT NOT NULL,
-    FOREIGN KEY (shipment_id) REFERENCES shipments(shipment_id)
-        ON UPDATE CASCADE
-        ON DELETE CASCADE,
-    FOREIGN KEY (product_id) REFERENCES products(id)
-        ON UPDATE CASCADE
-        ON DELETE CASCADE
-);
+INSERT INTO closed_dates(close_date, event_name) values
+('2024-10-15', "Diwali"),
+('2024-09-18', "Dussehra"); 
 
-use tflecommerce;
-delete from orders where orders.id = 2;
+
+
