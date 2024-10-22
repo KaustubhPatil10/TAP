@@ -206,14 +206,24 @@ INSERT INTO orders(customer_id,order_date,shipping_address,total_amount,shipping
 
 DELIMITER //
 
-CREATE TRIGGER after_order_insert_update_points
+CREATE TRIGGER after_order_insert
 AFTER INSERT ON orders
 FOR EACH ROW
 BEGIN
-    -- Assuming 1 point per 10 units of order total
-    UPDATE users
-    SET points = points + FLOOR(NEW.total_amount / 10)
-    WHERE id = NEW.customer_id;
+DECLARE redeemed_points INT DEFAULT 0;
+DECLARE p_user_id INT;
+	IF EXISTS(
+		SELECT 1
+        FROM loyalty_redemptions
+        WHERE user_id = OLD.customer_id)
+        THEN
+        UPDATE loyalty_redemptions
+		SET points_redeemed = points_redeemed + FLOOR(NEW.total_amount / 10)
+		WHERE user_id = OLD.customer_id;
+        ELSE
+        INSERT INTO loyalty_redemptions(user_id, points_redeemed, redemption_date, status) VALUES
+			(NEW.p_user_id, 150, '2024-06-05 14:30:00', 'completed');
+	END IF;
 END//
 
 DELIMITER ;
@@ -229,11 +239,11 @@ DROP TRIGGER after_product_insert;
 	AFTER INSERT ON inventory
 	FOR EACH ROW 
 	BEGIN
-	INSERT INTO product_audit(Product_id, action_type, new_stock_quantity, action_timestamp )
-	VALUES(NEW.product_id, 'INSERT', NEW.stock_quantity , NOW());
+	INSERT INTO product_audit(inventory_id, action_type, new_stock_quantity, action_timestamp )
+	VALUES(NEW.id, 'INSERT', NEW.stock_quantity , NOW());
 	END//
 
-	DELIMITER ; 
+	DELIMITER ;
 
 INSERT INTO inventory(product_id, stock_quantity) VALUES
 (17, 25);
@@ -249,8 +259,8 @@ CREATE TRIGGER product_update
 BEFORE UPDATE ON inventory
 FOR EACH ROW
 BEGIN
-    INSERT INTO product_audit (product_id, action_type, old_stock_quantity, new_stock_quantity)
-    VALUES (OLD.product_id, 'UPDATE', OLD.stock_quantity, NEW.stock_quantity);
+    INSERT INTO product_audit (inventory_id, action_type, old_stock_quantity, new_stock_quantity)
+    VALUES (OLD.id, 'UPDATE', OLD.stock_quantity, NEW.stock_quantity);
 END//
 
 DELIMITER ;
@@ -270,8 +280,8 @@ CREATE TRIGGER after_product_delete
 AFTER DELETE ON inventory
 FOR EACH ROW
 BEGIN
-INSERT INTO product_audit(product_id,action_type,old_stock_quantity,new_stock_quantity)
-VALUES(product_id,'DELETE', old.stock_quantity, 0);
+INSERT INTO product_audit(inventory_id,action_type,old_stock_quantity,new_stock_quantity)
+VALUES(OLD.id,'DELETE', OLD.stock_quantity, 0);
 END //
 
 DELIMITER ;

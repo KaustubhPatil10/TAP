@@ -1,3 +1,4 @@
+DROP DATABASE tflecommerce;
 CREATE DATABASE tflecommerce;
 USE tflecommerce;
 
