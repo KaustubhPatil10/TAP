@@ -20,3 +20,8 @@
   * altered products table with last_modified (field) as it was used in triggers.
 ### USED TRANSACTIONS IN TFLECOMMERCE.
   * Converted first two transactions into store procedures for repetative use.
+
+### Created two Database TFLECommerce and TFLGreenhouseAutomation:
+  * Using TFLECommerce in - MYSQL, MsSQL
+  * USING TFLGreenhouseAutomation in - MYSQL, MsSQL
+  * Created different Stored Procedures, Events - in TFLECommerce , Transactions, Triggers, Windows Task Schedulers - in TFLGreenhouseAutomation.
