@@ -1,0 +1,109 @@
+UI	 :HTML, CSS, JS, React
+Database : mysql ,Sql server (mssql)
+programming Basics:
+	: C language ( data structors, functions)
+	: C++ language (object orientd programming)
+	: File I/O operations ( creating, reading, writing file data)
+			      ( working .txt files, .dat file (binary files))
+			      (writing structure elements into file,
+			       reading data from file)
+	: STL (Standard Template Library)
+
+Web App	  using C#, Java, Pyton
+	  	programming basics
+	  	language specifice concepts
+	  	Object Oriented Programming
+	  	Collections (generics)
+	  	Runtime specific topics
+			Reflection, Serilaztion,
+			File I/O , async await, 
+			Multitasking,
+			network programming,
+		  Database Access Programming
+		  Object Relational Mapping programming(ORM)
+		  Server Side Web Programming
+			server side pages
+			HTTP handlers
+			middleware
+			MVC Architecture
+			REST API 
+	 	 Design Patterns 
+		 Design Prinicples
+
+
+
+
+
+
+
+Set Up Your Environment:
+
+1.Install Python: Ensure you have Python installed. Django works with Python 3.6 and later.
+	Download from python.org.  (https://www.python.org/downloads/)
+2.Install Django: You can install Django using pip.
+	pip install django
+3.Create a Project Directory: Choose a directory where you want to create your project.
+
+
+
+
+Create a New Django Project
+1.Start a New Project: Use the Django command to create a new project.
+	django-admin startproject myproject
+
+2.Navigate to Your Project Directory:
+	cd myproject
+
+3: Start the Development Server
+	python manage.py runserver
+
+
+
+Create a Django App
+1.Create a New App: An app is a web application that does something
+	python manage.py startapp myapp
+
+2. Add the App to Settings: Open myproject/settings.py and add your app to the INSTALLED_APPS list:
+
+	INSTALLED_APPS = [
+    				...
+    				'myapp',
+	]
+3.  Create Views
+	Edit myapp/views.py: Create a simple view
+
+	from django.http import HttpResponse
+
+	def home(request):
+    		return HttpResponse("Hello, Django!")
+
+
+Set Up URLs
+
+	Create a URL Configuration: In myapp, create a file named urls.py.
+
+	from django.urls import path
+	from .views import home
+
+	urlpatterns = [
+    			path('', home, name='home'),
+	]
+
+
+
+	Include Your App's URLs in the Project: Edit myproject/urls.py to include your app’s URLs.
+	
+	from django.contrib import admin
+	from django.urls import path, include
+
+	urlpatterns = [
+    		path('admin/', admin.site.urls),
+    		path('', include('myapp.urls')),
+	]
+
+
+
+Run the Server Again
+	python manage.py runserver
+
+	Visit http://127.0.0.1:8000/ to see "Hello, Django!"
