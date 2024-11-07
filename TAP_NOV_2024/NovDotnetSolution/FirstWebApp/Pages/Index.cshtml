@@ -1,0 +1,17 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Transflower</h1>
+    <ol>
+        @{
+            foreach (string technology in @Model.Technologies)
+            {
+                <li>@technology</li>         
+            }
+        }  
+     </ol>
+</div>

@@ -1,0 +1,19 @@
+﻿@page
+@using FirstWebApp.Models;
+@model FirstWebApp.Pages.CustomersModel
+ 
+@{
+    ViewData["Title"] = "customers page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Transflower</h1>
+    <ol>
+        @{
+            foreach (Customer customer in @Model.Customers)
+            {
+                <li>@customer.Name   @customer.Email</li>         
+            }
+        }  
+     </ol>
+</div>

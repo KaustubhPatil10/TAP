@@ -1,0 +1,132 @@
+Essential Programming concept: 
+1.you should be able to install python. 
+
+--> Download Python Installer
+    Go to the official Python website: https://www.python.org/downloads/.
+    Locate the downloaded installer file (.exe) and open it.
+    Important: On the installation screen, check the box that says "Add Python to PATH" at the
+    bottom. This ensures you can run Python from the command prompt.
+    "Customize Installation" if you want to specify a different installation path.
+    Verify Installation:
+    Open Command Prompt (type cmd in the search bar).
+    Type python --version or python to check if Python is installed and to confirm the version.
+
+2.you should be able to install Django framework 
+
+--> Install Django:
+    pip install django
+    
+    Verify Installation:
+    python -m django --version
+
+3.you should be able to create basic python Django application 
+
+--> 1. Create a New Django Project:
+    	django-admin startproject myproject
+			OR
+   	 python-m django startproject myproject
+   
+    	Navigate to Your Project Directory:
+    	cd myproject
+
+   	 Run the Development Server:
+   	 python manage.py runserver
+
+    2. Create a Django App:
+    	Create a New App:
+	python manage.py startapp myapp
+
+        Register the App:
+        Go to myproject/settings.py and add the new app to the INSTALLED_APPS list:
+        INSTALLED_APPS = [
+			   'myapp',
+			]
+    3. Define a Simple View:
+        Create a View in myapp:
+        Open myapp/views.py and define simple view.
+        from django.http import HttpResponse
+
+	def home(request):
+    	    return HttpResponse("Hello, welcome to my basic Django app!")
+        
+        Set Up the URL for the View:
+        In myapp, create a file named urls.py (if it doesn’t already exist) and add the
+        following:
+
+        from django.urls import path
+        from . import views
+
+	urlpatterns = [
+    			path('', views.home, name='home'),  
+			# This connects the home view to the root URL
+		      ]
+        Go to myproject/urls.py and include myapp’s URLs by adding the following line:
+
+        from django.contrib import admin
+        from django.urls import path, include
+
+        urlpatterns = [
+    			path('admin/', admin.site.urls),
+   			path('', include('myapp.urls')),  # Include myapp’s URLs
+		      ]
+
+        Add a Template:
+        Inside myapp/templates/myapp/, create a file called home.html
+
+        Modify the home view in myapp/views.py:
+        from django.shortcuts import render
+
+        def home(request):
+            return render(request, 'myapp/home.html')
+ 
+    Run the Server and View the App:
+    python manage.py runserver
+ 
+    Go to http://127.0.0.1:8000/ in a browser, and you should see the content from home.html.
+      
+
+    Installing Specific Django Versions:
+    pip install django==3.2  # Replace 3.2 with the version you want
+
+4.you should be able to host and run web application Django.
+
+--> 
+
+5.you should be comfortable with files and folder created by Django. 
+6.you should be comfortable with request response life cycle of Django. 
+7.you should be knowing MVT framework 
+8.you should create and maintain proper folders for model, forms, templates.
+9.you should be comfortable in understanding static and dynamic pages using DTL 
+10.Object oriented Programming concepts using python   
+	a. create class, define members, add member functions, defining main function   
+	b. create constructor, destructor, to string ,getter, setter self keyword   
+	c. encapsulation   
+	c. create array, collections   
+	d. understand basic syntax for looping, conditions, switch   
+	e. input and output on console   
+	f. inheritance   
+	g. abstract class, abstract method   
+	h. interface, multiple interface inheritance 	
+11. File IO 
+12. Serialization 
+13. Reflection 
+14. Creating package in python
+
+Folder Structure:
+Django project with multiple apps (blog and shop) might organize its template files:
+
+myproject/
+├── blog/
+│   ├── templates/
+│   │   └── blog/
+│   │       ├── index.html
+│   │       └── post_detail.html
+│   └── views.py
+├── shop/
+│   ├── templates/
+│   │   └── shop/
+│   │       ├── index.html
+│   │       └── product_detail.html
+│   └── views.py
+└── myproject/
+    └── settings.py
