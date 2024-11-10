@@ -1,0 +1,15 @@
+C:\Users\adity\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\DAYS\DAY_1\HelloWorldApp\bin\Debug\net8.0\HelloWorldApp.exe
+C:\Users\adity\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\DAYS\DAY_1\HelloWorldApp\bin\Debug\net8.0\HelloWorldApp.deps.json
+C:\Users\adity\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\DAYS\DAY_1\HelloWorldApp\bin\Debug\net8.0\HelloWorldApp.runtimeconfig.json
+C:\Users\adity\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\DAYS\DAY_1\HelloWorldApp\bin\Debug\net8.0\HelloWorldApp.dll
+C:\Users\adity\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\DAYS\DAY_1\HelloWorldApp\bin\Debug\net8.0\HelloWorldApp.pdb
+C:\Users\adity\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\DAYS\DAY_1\HelloWorldApp\obj\Debug\net8.0\HelloWorldApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adity\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\DAYS\DAY_1\HelloWorldApp\obj\Debug\net8.0\HelloWorldApp.AssemblyInfoInputs.cache
+C:\Users\adity\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\DAYS\DAY_1\HelloWorldApp\obj\Debug\net8.0\HelloWorldApp.AssemblyInfo.cs
+C:\Users\adity\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\DAYS\DAY_1\HelloWorldApp\obj\Debug\net8.0\HelloWorldApp.csproj.CoreCompileInputs.cache
+C:\Users\adity\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\DAYS\DAY_1\HelloWorldApp\obj\Debug\net8.0\HelloWorldApp.sourcelink.json
+C:\Users\adity\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\DAYS\DAY_1\HelloWorldApp\obj\Debug\net8.0\HelloWorldApp.dll
+C:\Users\adity\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\DAYS\DAY_1\HelloWorldApp\obj\Debug\net8.0\refint\HelloWorldApp.dll
+C:\Users\adity\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\DAYS\DAY_1\HelloWorldApp\obj\Debug\net8.0\HelloWorldApp.pdb
+C:\Users\adity\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\DAYS\DAY_1\HelloWorldApp\obj\Debug\net8.0\HelloWorldApp.genruntimeconfig.cache
+C:\Users\adity\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\DAYS\DAY_1\HelloWorldApp\obj\Debug\net8.0\ref\HelloWorldApp.dll
