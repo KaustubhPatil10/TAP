@@ -8,6 +8,37 @@ namespace TesterApp
 {
     class Program
     {
+        private string ProgramName;
+
+        // Setter Function
+        public void SetProgramName(string name)
+        {
+            this.ProgramName = name;
+        }
+
+        //Getter Function
+        public string GetProgrameName()
+        {
+            return this.ProgramName;
+        }
+        
+          // OR in C# we use setter and getter function
+        public string Name
+        {
+            get {return this.ProgramName; }
+            set { ProgramName = value; }   
+        }
+         
+
+        public Program()
+        {
+            this.ProgramName = "FirstProgram";
+        }
+
+        public Program (string name)
+        {
+            this.ProgramName = name;
+        }
         static void Main(string[] args)
         {
             for (int i = 0; i < args.Length; i++)
