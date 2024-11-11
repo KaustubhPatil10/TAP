@@ -1,0 +1,7 @@
+C:\Users\adity\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\TesterApp\bin\Debug\TesterApp.exe.config
+C:\Users\adity\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\TesterApp\bin\Debug\TesterApp.exe
+C:\Users\adity\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\TesterApp\bin\Debug\TesterApp.pdb
+C:\Users\adity\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\TesterApp\obj\Debug\TesterApp.csproj.AssemblyReference.cache
+C:\Users\adity\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\TesterApp\obj\Debug\TesterApp.csproj.CoreCompileInputs.cache
+C:\Users\adity\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\TesterApp\obj\Debug\TesterApp.exe
+C:\Users\adity\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\TesterApp\obj\Debug\TesterApp.pdb
