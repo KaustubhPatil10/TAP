@@ -10,23 +10,24 @@ namespace TesterApp
     {
         private string ProgramName;
 
-        // Setter Function
-        public void SetProgramName(string name)
-        {
-            this.ProgramName = name;
-        }
+        //// Setter Function
+        //public void SetProgramName(string name)
+        //{
+        //    this.ProgramName = name;
+        //}
 
-        //Getter Function
-        public string GetProgrameName()
-        {
-            return this.ProgramName;
-        }
+        ////Getter Function
+        //public string GetProgrameName()
+        //{
+        //    return this.ProgramName;
+        //}
         
           // OR in C# we use setter and getter function
+          // Property 
         public string Name
         {
-            get {return this.ProgramName; }
-            set { ProgramName = value; }   
+            get { return this.ProgramName; }
+            set { this.ProgramName = value; }   
         }
          
 
@@ -65,8 +66,26 @@ namespace TesterApp
             String name = Console.ReadLine();
             Console.WriteLine("Good Morning {0}", name + " Patil");  //{}place holder
 
-            Program theprogram = new Program();
-            theprogram.Display();
+            int result = Addition(10, 9);
+            int result2 = Multiplication(10, 9);
+
+            Console.WriteLine("Addition = {0}", result);
+            Console.WriteLine("Multiplication = {0}", result2);
+
+            Program theProgram = new Program();
+            theProgram.Name = "My Best Program";
+
+            Console.WriteLine("Program title = " + theProgram.Name);
+
+            theProgram.Display();
+
+
+            Product theProduct1 = new Product(1, "Gerbera", "Wedding Flower", 4500, 10);
+            Product theProduct2 = new Product(2, "Rose", "Valentine Flower", 4000, 20);
+
+            Console.WriteLine(theProduct1);
+
+            //to hold the program from shutting we keep readline at end so we can shut the program manually.
             Console.ReadLine();
 
         }
