@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace HR
 {
 
-    //Inheritance - inherited Prson class into Employee class.
+    //Inheritance - inherited Person class into Employee class.
     public class Employee : Person
     {
         public Employee(): base() 

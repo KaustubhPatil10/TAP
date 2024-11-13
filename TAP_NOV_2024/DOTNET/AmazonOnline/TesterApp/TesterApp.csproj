@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TesterApp.InheritanceTest</StartupObject>
+    <StartupObject>TesterApp.LanguageFeaturesTest</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -69,6 +69,7 @@
     <Compile Include="Employee.cs" />
     <Compile Include="InheritanceTest.cs" />
     <Compile Include="Item.cs" />
+    <Compile Include="LanguageFeaturesTest.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
