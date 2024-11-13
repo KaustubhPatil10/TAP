@@ -3,42 +3,46 @@
   "WorkspaceRootPath": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|c:\\users\\kaust\\onedrive\\desktop\\kaustubh data\\tap\\ravi_sir_mentor\\src\\tap_nov_2024\\dotnet\\amazononline\\testerapp\\banktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\banktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|c:\\users\\kaust\\onedrive\\desktop\\kaustubh data\\tap\\ravi_sir_mentor\\src\\tap_nov_2024\\dotnet\\amazononline\\testerapp\\inheritancetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\inheritancetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|c:\\users\\kaust\\onedrive\\desktop\\kaustubh data\\tap\\ravi_sir_mentor\\src\\tap_nov_2024\\dotnet\\amazononline\\testerapp\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|c:\\users\\kaust\\onedrive\\desktop\\kaustubh data\\tap\\ravi_sir_mentor\\src\\tap_nov_2024\\dotnet\\amazononline\\testerapp\\salesemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\salesemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|c:\\users\\kaust\\onedrive\\desktop\\kaustubh data\\tap\\ravi_sir_mentor\\src\\tap_nov_2024\\dotnet\\amazononline\\testerapp\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\testerapp\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|TesterApp||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|c:\\users\\kaust\\onedrive\\desktop\\kaustubh data\\tap\\ravi_sir_mentor\\src\\tap_nov_2024\\dotnet\\amazononline\\testerapp\\securitytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\testerapp\\securitytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\securitytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|c:\\users\\kaust\\onedrive\\desktop\\kaustubh data\\tap\\ravi_sir_mentor\\src\\tap_nov_2024\\dotnet\\amazononline\\testerapp\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\testerapp\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|c:\\users\\kaust\\onedrive\\desktop\\kaustubh data\\tap\\ravi_sir_mentor\\src\\tap_nov_2024\\dotnet\\amazononline\\testerapp\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\testerapp\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|c:\\users\\kaust\\onedrive\\desktop\\kaustubh data\\tap\\ravi_sir_mentor\\src\\tap_nov_2024\\dotnet\\amazononline\\testerapp\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\testerapp\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|c:\\users\\kaust\\onedrive\\desktop\\kaustubh data\\tap\\ravi_sir_mentor\\src\\tap_nov_2024\\dotnet\\amazononline\\testerapp\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\testerapp\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|c:\\users\\kaust\\onedrive\\desktop\\kaustubh data\\tap\\ravi_sir_mentor\\src\\tap_nov_2024\\dotnet\\amazononline\\testerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\testerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -52,37 +56,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SecurityTest.cs",
-              "DocumentMoniker": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\SecurityTest.cs",
-              "RelativeDocumentMoniker": "TesterApp\\SecurityTest.cs",
-              "ToolTip": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\SecurityTest.cs",
-              "RelativeToolTip": "TesterApp\\SecurityTest.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "SalesEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\SalesEmployee.cs",
+              "RelativeDocumentMoniker": "TesterApp\\SalesEmployee.cs",
+              "ToolTip": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\SalesEmployee.cs",
+              "RelativeToolTip": "TesterApp\\SalesEmployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T14:48:28.236Z",
+              "WhenOpened": "2024-11-13T08:31:32.715Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\Person.cs",
+              "RelativeDocumentMoniker": "TesterApp\\Person.cs",
+              "ToolTip": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\Person.cs",
+              "RelativeToolTip": "TesterApp\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T07:56:23.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InheritanceTest.cs",
+              "DocumentMoniker": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\InheritanceTest.cs",
+              "RelativeDocumentMoniker": "TesterApp\\InheritanceTest.cs",
+              "ToolTip": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\InheritanceTest.cs",
+              "RelativeToolTip": "TesterApp\\InheritanceTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T09:07:06.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AccountManager.cs",
               "DocumentMoniker": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\AccountManager.cs",
               "RelativeDocumentMoniker": "TesterApp\\AccountManager.cs",
               "ToolTip": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\AccountManager.cs",
               "RelativeToolTip": "TesterApp\\AccountManager.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwDYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T10:45:05.02Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "TesterApp",
               "DocumentMoniker": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\TesterApp.csproj",
               "RelativeDocumentMoniker": "TesterApp\\TesterApp.csproj",
@@ -94,33 +124,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BankTest.cs",
-              "DocumentMoniker": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\BankTest.cs",
-              "RelativeDocumentMoniker": "TesterApp\\BankTest.cs",
-              "ToolTip": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\BankTest.cs",
-              "RelativeToolTip": "TesterApp\\BankTest.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAYwB8AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:22:51.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Account.cs",
-              "DocumentMoniker": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\Account.cs",
-              "RelativeDocumentMoniker": "TesterApp\\Account.cs",
-              "ToolTip": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\Account.cs",
-              "RelativeToolTip": "TesterApp\\Account.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:44:37.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "SecurityTest.cs",
+              "DocumentMoniker": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\SecurityTest.cs",
+              "RelativeDocumentMoniker": "TesterApp\\SecurityTest.cs",
+              "ToolTip": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\SecurityTest.cs",
+              "RelativeToolTip": "TesterApp\\SecurityTest.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T14:48:28.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\Product.cs",
               "RelativeDocumentMoniker": "TesterApp\\Product.cs",
@@ -128,12 +145,11 @@
               "RelativeToolTip": "TesterApp\\Product.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwEcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T08:10:05.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T08:10:05.161Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\Item.cs",
               "RelativeDocumentMoniker": "TesterApp\\Item.cs",
@@ -141,12 +157,11 @@
               "RelativeToolTip": "TesterApp\\Item.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:46:02.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T10:46:02.938Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\Customer.cs",
               "RelativeDocumentMoniker": "TesterApp\\Customer.cs",
@@ -154,12 +169,11 @@
               "RelativeToolTip": "TesterApp\\Customer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:45:41.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T10:45:41.774Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Cart.cs",
               "DocumentMoniker": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\Cart.cs",
               "RelativeDocumentMoniker": "TesterApp\\Cart.cs",
@@ -167,12 +181,11 @@
               "RelativeToolTip": "TesterApp\\Cart.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:45:21.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T10:45:21.923Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\Program.cs",
               "RelativeDocumentMoniker": "TesterApp\\Program.cs",
@@ -180,8 +193,7 @@
               "RelativeToolTip": "TesterApp\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T07:20:56.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T07:20:56.37Z"
             }
           ]
         }
