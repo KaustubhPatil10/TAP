@@ -3,9 +3,44 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static HR.Person;
 
 namespace TesterApp
 {
+
+    //User Defined Structure TYPE
+    public struct Point
+    {
+        public int x;
+        public int y;
+    }
+    //Abstract class enforce overriding
+    public abstract class Shape
+    {
+        //Minimum one method has to be abstract method.
+        abstract public void Draw();
+        public string Color { get; set; } 
+        public string Width { get; set; }
+        public void Display()
+        {
+            Console.WriteLine("Shape is getting displayed...");
+        }
+    }
+
+    public class Line : Shape
+    {
+        public Point StartPoint;
+        public Point EndPoint;
+        public override void Draw()
+        {
+            Console.WriteLine("Line is Drawn....");
+            Console.WriteLine("First Point {0}, {1}", StartPoint.x, EndPoint.y);
+            Console.WriteLine("Second Point {0}, {1}", StartPoint.x, EndPoint.y);
+            Console.WriteLine("Color = {0} ", Color);
+            Console.WriteLine("Width = {0} ", Width); 
+        }
+    }
+
     //interface is used to define contract
     // interface is used to define specification
     // interface is used to define guidelines
@@ -90,18 +125,48 @@ namespace TesterApp
 
             //Heap is managed by Garbage Collector;
             //interface IPrintable is used for Polymorphism purpose.
-
+            Console.WriteLine("Demo for Interface inheritance");
             IPrintable outputDevice = null;
             
-            Printer laserPrinter = new Printer();
-            outputDevice = laserPrinter;
-            outputDevice.Print(); //Printer method will be called.
+            //Printer laserPrinter = new Printer();
+            //outputDevice = laserPrinter;
 
-            ThreeDPrinter jobPrinter = new ThreeDPrinter();
-            outputDevice = jobPrinter;
+            outputDevice = new Printer();
+            //late binding 
+            outputDevice.Start();
+            outputDevice.Print(); //Printer method will be called.
+            outputDevice.Stop();
+
+
+            //ThreeDPrinter jobPrinter = new ThreeDPrinter();
+            //outputDevice = jobPrinter;
+            outputDevice = new ThreeDPrinter();
+
+            //when interface is used always it is going to consider late binding.
+            //late binding
+            outputDevice.Start();
             outputDevice.Print(); // ThreeDPrinter method will be called.
-            
+            outputDevice.Stop();
+
             LanguageFeaturesTest test = new LanguageFeaturesTest();
+
+            Console.Write("Demo Abstract Class");
+
+            Shape theShape = new Line();
+
+            theShape.Color = "Red";
+            theShape.Width = "4";
+
+            Line l = (Line) theShape; //typecast line //Line l = theShape as Line;
+            l.StartPoint = new Point();
+            l.StartPoint.x = 78;
+            l.StartPoint.y = 12;
+
+            l.EndPoint = new Point();
+            l.EndPoint.x = 56;
+            l.EndPoint.y = 12;
+
+            theShape.Draw();
 
             Console.WriteLine("Welcome to C#");
             Console.ReadLine();

@@ -8,12 +8,7 @@ namespace HR
 {
     public class Person
     {
-        //User Defined Structure TYPE
-        public struct Point
-        {
-            int x;
-            int y;
-        }
+        
         public Person() 
         {
             this.FirstName = "";
