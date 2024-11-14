@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TesterApp.LanguageFeaturesTest</StartupObject>
+    <StartupObject>TesterApp.constreadonlyTest</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -64,7 +64,9 @@
     <Compile Include="Account.cs" />
     <Compile Include="AccountManager.cs" />
     <Compile Include="BankTest.cs" />
+    <Compile Include="BoxingUnBoxingTest.cs" />
     <Compile Include="Cart.cs" />
+    <Compile Include="constreadonlyTest.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="InheritanceTest.cs" />
