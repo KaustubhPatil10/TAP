@@ -1,10 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.Remoting.Metadata.W3cXsd2001;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace OrderProcessing
 {
@@ -18,9 +14,18 @@ namespace OrderProcessing
                                 Description = "Collect all todays parcel to be delivered from Mumbai warehouse", 
                                 Duration = 3, 
                                 Status = "Not started" };
-            Job job2 = new Job { ID = 2, Title = "Deliver Parcel to Customers", Description = "All Parcels collected to be delivered to mentioned locations", Durations = 4, Satus = "Not started" };
-            Job job3 = new Job { ID = 3, Title = "Report the status of Delivery", Description = "Collect all todays parcels to be delivered from Mumbai warehouse", Duration = 3, status = "Not started" };
-            Job job4 = new Job { ID = 1, Title = "Update WordOrder status", Description = "Access Online Amazon system to update status of delivery of product", Duration = 3, Status = "Not started"};
+            Job job2 = new Job { ID = 2, Title = "Deliver Parcel to Customers", 
+                                Description = "All Parcels collected to be delivered to mentioned locations", 
+                                Duration = 4, 
+                                Status = "Not started" };
+            Job job3 = new Job { ID = 3, Title = "Report the status of Delivery", 
+                                Description = "Collect all todays parcels to be delivered from Mumbai warehouse", 
+                                Duration = 3, 
+                                Status = "Not started" };
+            Job job4 = new Job { ID = 4, Title = "Update WordOrder status", 
+                                Description = "Access Online Amazon system to update status of delivery of product", 
+                                Duration = 3, 
+                                Status = "Not started"};
 
             List<Job> jobs = new List<Job>();
             jobs.Add(job1);

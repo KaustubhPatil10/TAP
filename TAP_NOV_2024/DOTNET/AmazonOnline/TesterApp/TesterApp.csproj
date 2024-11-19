@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TesterApp.constreadonlyTest</StartupObject>
+    <StartupObject>OrderProcessing.WorkOrderTest</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -61,34 +61,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Account.cs" />
-    <Compile Include="AccountManager.cs" />
     <Compile Include="BankTest.cs" />
     <Compile Include="BoxingUnBoxingTest.cs" />
-    <Compile Include="Cart.cs" />
     <Compile Include="constreadonlyTest.cs" />
-    <Compile Include="Customer.cs" />
-    <Compile Include="DeliverManager.cs" />
-    <Compile Include="Employee.cs" />
     <Compile Include="InheritanceTest.cs" />
-    <Compile Include="IOrderService.cs" />
-    <Compile Include="Item.cs" />
-    <Compile Include="Job.cs" />
     <Compile Include="LanguageFeaturesTest.cs" />
-    <Compile Include="Manager.cs" />
-    <Compile Include="Order.cs" />
-    <Compile Include="Person.cs" />
-    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PurchaseManager.cs" />
-    <Compile Include="PurchaseOrder.cs" />
-    <Compile Include="PurchaseOrderService.cs" />
     <Compile Include="PurchaseOrderTest.cs" />
-    <Compile Include="SalesEmployee.cs" />
     <Compile Include="SecurityTest.cs" />
-    <Compile Include="WorkOrder.cs" />
-    <Compile Include="WorkOrderService.cs" />
     <Compile Include="WorkOrderTest.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -105,6 +86,36 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Banking\Banking.csproj">
+      <Project>{ef94eecb-24e8-4cb4-99ac-d0a408a916de}</Project>
+      <Name>Banking</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Catalog\Catalog.csproj">
+      <Project>{061e570b-6bc6-438a-9f55-550bdfec13d9}</Project>
+      <Name>Catalog</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CRM\CRM.csproj">
+      <Project>{041d7f25-9cc1-4bcf-8924-edfe72dc40e8}</Project>
+      <Name>CRM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HR\HR.csproj">
+      <Project>{610f9e3e-b07d-4904-aa3e-f01373966802}</Project>
+      <Name>HR</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Membership\Membership.csproj">
+      <Project>{f5f4473e-4009-43e8-84c1-946f954aa9ce}</Project>
+      <Name>Membership</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OrderProcessing\OrderProcessing.csproj">
+      <Project>{1dc7a091-8df9-45e8-9b7a-6d8828e2f6a5}</Project>
+      <Name>OrderProcessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShoppingCart\ShoppingCart.csproj">
+      <Project>{f828f2dd-9fc8-4310-9c1a-5501b97a1618}</Project>
+      <Name>ShoppingCart</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

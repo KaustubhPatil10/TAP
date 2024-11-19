@@ -1,0 +1,6 @@
+C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\Banking\bin\Debug\Banking.dll
+C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\Banking\bin\Debug\Banking.pdb
+C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\Banking\obj\Debug\Banking.csproj.AssemblyReference.cache
+C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\Banking\obj\Debug\Banking.csproj.CoreCompileInputs.cache
+C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\Banking\obj\Debug\Banking.dll
+C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\Banking\obj\Debug\Banking.pdb

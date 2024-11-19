@@ -1,0 +1,10 @@
+C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\ConsoleApp1\bin\Debug\MathLib.dll
+C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\ConsoleApp1\bin\Debug\MathLib.pdb
+C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\ConsoleApp1\obj\Debug\ConsoleA.CB28C8CC.Up2Date
