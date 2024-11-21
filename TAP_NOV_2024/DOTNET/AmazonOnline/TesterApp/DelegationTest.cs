@@ -1,15 +1,15 @@
 ﻿using System;
+using Banking;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace TesterApp
 {
     //define delegate
-    //
-    public delegate void Handler();
+    
+    // public delegate void Handler();
 
+    //delegate in nothing but a wrapper for function pointers
     class DelegationTest
     {
         public static void PayIncomeTax()
@@ -32,20 +32,20 @@ namespace TesterApp
             //PayIncomeTax();
 
             //for late binding - we used delegate--> is a type that references methods with a particular parameter list and return type.
-            Handler operation1 = null;
-            operation1 = new Handler(PayIncomeTax);
+            AccountHandler operation1 = null;
+            operation1 = new AccountHandler(PayIncomeTax);  //registering name of function to be invoked.
             //operation1();
 
-            Handler operation2 = null;
-            operation2 = new Handler(PayServiceTax);
+            AccountHandler operation2 = null;
+            operation2 = new AccountHandler(PayServiceTax);
             //operation2();
 
-            Handler operation3 = null;
-            operation3 = new Handler(PayProfessionalTax); //unicast delegate
+            AccountHandler operation3 = null;
+            operation3 = new AccountHandler(PayProfessionalTax); //unicast delegate
             //operation3();
 
 
-            Handler masterOperationManager = null;
+            AccountHandler masterOperationManager = null;
 
             masterOperationManager += operation1;  //multicast
             masterOperationManager += operation2;

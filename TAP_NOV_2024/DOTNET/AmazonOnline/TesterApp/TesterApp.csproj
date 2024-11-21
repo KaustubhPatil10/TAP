@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TesterApp.DelegationTest</StartupObject>
+    <StartupObject>TesterApp.EventDemoTest</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -65,6 +65,7 @@
     <Compile Include="BoxingUnBoxingTest.cs" />
     <Compile Include="constreadonlyTest.cs" />
     <Compile Include="DelegationTest.cs" />
+    <Compile Include="EventDemoTest.cs" />
     <Compile Include="InheritanceTest.cs" />
     <Compile Include="LanguageFeaturesTest.cs" />
     <Compile Include="Program.cs" />

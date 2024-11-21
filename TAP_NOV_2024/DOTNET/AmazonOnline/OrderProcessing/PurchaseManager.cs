@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 namespace OrderProcessing
 {
 
-    //Singleton pattern
-    //allows only one instance of class will be created
+    // Singleton pattern
+    // allows only one instance of class will be created
     // 1.define private constructor
     // 2.Keep self reference as ststic variable to class.
     // 3.Create instance of class by verifying reference nullability

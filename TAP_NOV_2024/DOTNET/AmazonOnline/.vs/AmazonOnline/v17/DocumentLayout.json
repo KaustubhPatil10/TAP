@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\delegationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|c:\\users\\kaust\\onedrive\\desktop\\kaustubh data\\tap\\ravi_sir_mentor\\src\\tap_nov_2024\\dotnet\\amazononline\\testerapp\\singletontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\singletontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|c:\\users\\kaust\\onedrive\\desktop\\kaustubh data\\tap\\ravi_sir_mentor\\src\\tap_nov_2024\\dotnet\\amazononline\\testerapp\\eventdemotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\eventdemotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DC7A091-8DF9-45E8-9B7A-6D8828E2F6A5}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\kaust\\onedrive\\desktop\\kaustubh data\\tap\\ravi_sir_mentor\\src\\tap_nov_2024\\dotnet\\amazononline\\orderprocessing\\purchasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DC7A091-8DF9-45E8-9B7A-6D8828E2F6A5}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\purchasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DC7A091-8DF9-45E8-9B7A-6D8828E2F6A5}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\kaust\\onedrive\\desktop\\kaustubh data\\tap\\ravi_sir_mentor\\src\\tap_nov_2024\\dotnet\\amazononline\\orderprocessing\\purchaseorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DC7A091-8DF9-45E8-9B7A-6D8828E2F6A5}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\purchaseorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF94EECB-24E8-4CB4-99AC-D0A408A916DE}|Banking\\Banking.csproj|c:\\users\\kaust\\onedrive\\desktop\\kaustubh data\\tap\\ravi_sir_mentor\\src\\tap_nov_2024\\dotnet\\amazononline\\banking\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF94EECB-24E8-4CB4-99AC-D0A408A916DE}|Banking\\Banking.csproj|solutionrelative:banking\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventDemoTest.cs",
+              "DocumentMoniker": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\EventDemoTest.cs",
+              "RelativeDocumentMoniker": "TesterApp\\EventDemoTest.cs",
+              "ToolTip": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\EventDemoTest.cs",
+              "RelativeToolTip": "TesterApp\\EventDemoTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:03:03.525Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,48 +45,22 @@
               "RelativeDocumentMoniker": "TesterApp\\DelegationTest.cs",
               "ToolTip": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\DelegationTest.cs",
               "RelativeToolTip": "TesterApp\\DelegationTest.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAqwCcAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCMAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T08:04:34.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SingletonTest.cs",
-              "DocumentMoniker": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\SingletonTest.cs",
-              "RelativeDocumentMoniker": "TesterApp\\SingletonTest.cs",
-              "ToolTip": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\SingletonTest.cs",
-              "RelativeToolTip": "TesterApp\\SingletonTest.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCUAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T07:03:34.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PurchaseOrderService.cs",
-              "DocumentMoniker": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\OrderProcessing\\PurchaseOrderService.cs",
-              "RelativeDocumentMoniker": "OrderProcessing\\PurchaseOrderService.cs",
-              "ToolTip": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\OrderProcessing\\PurchaseOrderService.cs",
-              "RelativeToolTip": "OrderProcessing\\PurchaseOrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T06:51:49.175Z",
+              "WhenOpened": "2024-11-21T11:58:27.986Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PurchaseManager.cs",
-              "DocumentMoniker": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\OrderProcessing\\PurchaseManager.cs",
-              "RelativeDocumentMoniker": "OrderProcessing\\PurchaseManager.cs",
-              "ToolTip": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\OrderProcessing\\PurchaseManager.cs",
-              "RelativeToolTip": "OrderProcessing\\PurchaseManager.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\Banking\\Account.cs",
+              "RelativeDocumentMoniker": "Banking\\Account.cs",
+              "ToolTip": "C:\\Users\\kaust\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\Banking\\Account.cs",
+              "RelativeToolTip": "Banking\\Account.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T06:34:52.102Z",
+              "WhenOpened": "2024-11-21T10:57:06.613Z",
               "EditorCaption": ""
             }
           ]
