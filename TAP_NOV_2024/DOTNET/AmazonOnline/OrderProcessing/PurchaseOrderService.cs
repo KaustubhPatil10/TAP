@@ -8,7 +8,7 @@ namespace OrderProcessing
 {
     public class PurchaseOrderService : IOrderService
     {
-        PurchaseManager mgr = new PurchaseManager();
+        PurchaseManager mgr = PurchaseManager.GetManager();
         //private List<Order> orders = new List<Order>();
         public PurchaseOrderService()
         {

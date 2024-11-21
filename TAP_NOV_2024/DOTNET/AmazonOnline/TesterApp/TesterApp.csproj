@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OrderProcessing.WorkOrderTest</StartupObject>
+    <StartupObject>TesterApp.DelegationTest</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -64,12 +64,14 @@
     <Compile Include="BankTest.cs" />
     <Compile Include="BoxingUnBoxingTest.cs" />
     <Compile Include="constreadonlyTest.cs" />
+    <Compile Include="DelegationTest.cs" />
     <Compile Include="InheritanceTest.cs" />
     <Compile Include="LanguageFeaturesTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PurchaseOrderTest.cs" />
     <Compile Include="SecurityTest.cs" />
+    <Compile Include="SingletonTest.cs" />
     <Compile Include="WorkOrderTest.cs" />
   </ItemGroup>
   <ItemGroup>
