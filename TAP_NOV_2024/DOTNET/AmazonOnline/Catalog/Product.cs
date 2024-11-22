@@ -17,6 +17,7 @@ namespace Catalog
         //readonly i.e = get{} property for ID
         public int ID
         {
+            set { id = value; }
             get { return id; }
         }
         public string Title
