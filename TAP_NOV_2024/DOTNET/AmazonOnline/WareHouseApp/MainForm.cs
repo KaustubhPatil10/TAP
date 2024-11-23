@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using System.IO;
 using Membership;
 using Catalog;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace WareHouseApp
 {
@@ -45,7 +47,14 @@ namespace WareHouseApp
         private void OnFileSaveAs(object sender, EventArgs e)
         {
             SaveFileDialog dlg = new SaveFileDialog();
-            dlg.ShowDialog();
+            if(dlg.ShowDialog() == DialogResult.OK)
+            {
+                string fileName = dlg.FileName;  // get the name of the file selected
+                FileStream stream = new FileStream(fileName, FileMode.OpenOrCreate);
+                BinaryFormatter bf = new BinaryFormatter();
+                bf.Serialize(stream, allProducts);
+                stream.Close();
+            }
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -86,11 +95,16 @@ namespace WareHouseApp
 
         private void OnInsertProduct(object sender, EventArgs e)
         {
+
+            //Get data from controls and store to variables.
+
             int id = int.Parse(this.txtProductID.Text);
             string title = this.txtProductTitle.Text;
             string description = this.txtProductDescription.Text;
             float unitPrice = float.Parse(this.txtUnitPrice.Text);
             int quantity = int.Parse(this.txtQuantity.Text);
+
+            //create instance of Product based on data received.
 
             Product theProduct = new Product
             {
@@ -101,7 +115,53 @@ namespace WareHouseApp
                 Quantity = quantity
             };
 
+
+            //populating data into GridView
+            //Add product data into list
             this.allProducts.Add(theProduct);
+
+            //Bind List to DataGridView.
+            this.dataProductsGridView.DataSource = null;
+            this.dataProductsGridView.DataSource = allProducts;
+
+        }
+
+
+        private int current = 0;
+        private void OnFirst(object sender, EventArgs e)
+        {
+            this.current = 0;
+            Display();
+        }
+
+        private void OnPrevious(object sender, EventArgs e)
+        {
+            if(this.current != 0)
+            this.current = current - 1;
+            Display();
+        }
+
+        private void OnNext(object sender, EventArgs e)
+        {
+            if(this.current != allProducts.Count)
+            this.current = current + 1;
+            Display();
+        }
+
+        private void OnLast(object sender, EventArgs e)
+        {
+            this.current = allProducts.Count - 1;
+            Display();
+        }
+
+        private void Display()
+        {
+            Product theProduct = allProducts[current];
+            this.txtProductID.Text = theProduct.ID.ToString();
+            this.txtProductTitle.Text = theProduct.Title.ToString();
+            this.txtProductDescription.Text = theProduct.Description.ToString();
+            this.txtUnitPrice.Text = theProduct.UnitPrice.ToString();
+            this.txtQuantity.Text = theProduct.Quantity.ToString();
         }
     }
 }

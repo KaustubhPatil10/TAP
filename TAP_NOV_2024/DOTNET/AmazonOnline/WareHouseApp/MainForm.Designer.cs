@@ -56,13 +56,13 @@
             this.inventoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.orderProcessingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.paymentProcessingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.signInToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.indexToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.searchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.signInToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -81,7 +81,9 @@
             this.btnPrevious = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
             this.btnLast = new System.Windows.Forms.Button();
+            this.dataProductsGridView = new System.Windows.Forms.DataGridView();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataProductsGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -94,7 +96,7 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1465, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1465, 30);
             this.menuStrip1.TabIndex = 7;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -112,7 +114,7 @@
             this.toolStripSeparator2,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 26);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
             this.fileToolStripMenuItem.Text = "&File";
             // 
             // newToolStripMenuItem
@@ -201,7 +203,7 @@
             this.toolStripSeparator4,
             this.selectAllToolStripMenuItem});
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(49, 26);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(49, 24);
             this.editToolStripMenuItem.Text = "&Edit";
             // 
             // undoToolStripMenuItem
@@ -271,38 +273,45 @@
             this.paymentProcessingToolStripMenuItem,
             this.signInToolStripMenuItem});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(58, 26);
+            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(58, 24);
             this.toolsToolStripMenuItem.Text = "&Tools";
             // 
             // customizeToolStripMenuItem
             // 
             this.customizeToolStripMenuItem.Name = "customizeToolStripMenuItem";
-            this.customizeToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.customizeToolStripMenuItem.Size = new System.Drawing.Size(222, 26);
             this.customizeToolStripMenuItem.Text = "&Customize";
             // 
             // optionsToolStripMenuItem
             // 
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(222, 26);
             this.optionsToolStripMenuItem.Text = "&Options";
             // 
             // inventoryToolStripMenuItem
             // 
             this.inventoryToolStripMenuItem.Name = "inventoryToolStripMenuItem";
-            this.inventoryToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.inventoryToolStripMenuItem.Size = new System.Drawing.Size(222, 26);
             this.inventoryToolStripMenuItem.Text = "Inventory";
             // 
             // orderProcessingToolStripMenuItem
             // 
             this.orderProcessingToolStripMenuItem.Name = "orderProcessingToolStripMenuItem";
-            this.orderProcessingToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.orderProcessingToolStripMenuItem.Size = new System.Drawing.Size(222, 26);
             this.orderProcessingToolStripMenuItem.Text = "Order Processing";
             // 
             // paymentProcessingToolStripMenuItem
             // 
             this.paymentProcessingToolStripMenuItem.Name = "paymentProcessingToolStripMenuItem";
-            this.paymentProcessingToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.paymentProcessingToolStripMenuItem.Size = new System.Drawing.Size(222, 26);
             this.paymentProcessingToolStripMenuItem.Text = "Payment Processing";
+            // 
+            // signInToolStripMenuItem
+            // 
+            this.signInToolStripMenuItem.Name = "signInToolStripMenuItem";
+            this.signInToolStripMenuItem.Size = new System.Drawing.Size(222, 26);
+            this.signInToolStripMenuItem.Text = "SignIn";
+            this.signInToolStripMenuItem.Click += new System.EventHandler(this.OnToolsSignIn);
             // 
             // helpToolStripMenuItem
             // 
@@ -313,7 +322,7 @@
             this.toolStripSeparator5,
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(55, 26);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(55, 24);
             this.helpToolStripMenuItem.Text = "&Help";
             // 
             // contentsToolStripMenuItem
@@ -344,13 +353,6 @@
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
             this.aboutToolStripMenuItem.Text = "&About...";
-            // 
-            // signInToolStripMenuItem
-            // 
-            this.signInToolStripMenuItem.Name = "signInToolStripMenuItem";
-            this.signInToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.signInToolStripMenuItem.Text = "SignIn";
-            this.signInToolStripMenuItem.Click += new System.EventHandler(this.OnToolsSignIn);
             // 
             // label1
             // 
@@ -479,48 +481,63 @@
             // btnFirst
             // 
             this.btnFirst.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFirst.Location = new System.Drawing.Point(247, 380);
+            this.btnFirst.Location = new System.Drawing.Point(337, 339);
             this.btnFirst.Name = "btnFirst";
             this.btnFirst.Size = new System.Drawing.Size(97, 35);
             this.btnFirst.TabIndex = 24;
             this.btnFirst.Text = "|<<";
             this.btnFirst.UseVisualStyleBackColor = true;
+            this.btnFirst.Click += new System.EventHandler(this.OnFirst);
             // 
             // btnPrevious
             // 
             this.btnPrevious.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrevious.Location = new System.Drawing.Point(367, 380);
+            this.btnPrevious.Location = new System.Drawing.Point(440, 339);
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(97, 35);
             this.btnPrevious.TabIndex = 25;
             this.btnPrevious.Text = "<<";
             this.btnPrevious.UseVisualStyleBackColor = true;
+            this.btnPrevious.Click += new System.EventHandler(this.OnPrevious);
             // 
             // btnNext
             // 
             this.btnNext.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNext.Location = new System.Drawing.Point(487, 380);
+            this.btnNext.Location = new System.Drawing.Point(543, 339);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(97, 35);
             this.btnNext.TabIndex = 26;
             this.btnNext.Text = ">>";
             this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.OnNext);
             // 
             // btnLast
             // 
             this.btnLast.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLast.Location = new System.Drawing.Point(607, 380);
+            this.btnLast.Location = new System.Drawing.Point(646, 339);
             this.btnLast.Name = "btnLast";
             this.btnLast.Size = new System.Drawing.Size(97, 35);
             this.btnLast.TabIndex = 27;
             this.btnLast.Text = ">>|";
             this.btnLast.UseVisualStyleBackColor = true;
+            this.btnLast.Click += new System.EventHandler(this.OnLast);
+            // 
+            // dataProductsGridView
+            // 
+            this.dataProductsGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataProductsGridView.Location = new System.Drawing.Point(337, 397);
+            this.dataProductsGridView.Name = "dataProductsGridView";
+            this.dataProductsGridView.RowHeadersWidth = 51;
+            this.dataProductsGridView.RowTemplate.Height = 24;
+            this.dataProductsGridView.Size = new System.Drawing.Size(584, 79);
+            this.dataProductsGridView.TabIndex = 28;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1465, 524);
+            this.ClientSize = new System.Drawing.Size(1465, 593);
+            this.Controls.Add(this.dataProductsGridView);
             this.Controls.Add(this.btnLast);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnPrevious);
@@ -548,6 +565,7 @@
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataProductsGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -606,6 +624,7 @@
         private System.Windows.Forms.Button btnPrevious;
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnLast;
+        private System.Windows.Forms.DataGridView dataProductsGridView;
     }
 }
 

@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Catalog
 {
+    [Serializable]
+
     public class Product
     {
         private string title;
