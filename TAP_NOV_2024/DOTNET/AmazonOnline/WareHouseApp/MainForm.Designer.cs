@@ -96,7 +96,7 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1465, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1465, 28);
             this.menuStrip1.TabIndex = 7;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -529,7 +529,7 @@
             this.dataProductsGridView.Name = "dataProductsGridView";
             this.dataProductsGridView.RowHeadersWidth = 51;
             this.dataProductsGridView.RowTemplate.Height = 24;
-            this.dataProductsGridView.Size = new System.Drawing.Size(584, 79);
+            this.dataProductsGridView.Size = new System.Drawing.Size(584, 166);
             this.dataProductsGridView.TabIndex = 28;
             // 
             // MainForm

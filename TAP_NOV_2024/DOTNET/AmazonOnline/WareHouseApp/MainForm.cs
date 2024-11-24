@@ -10,12 +10,13 @@ namespace WareHouseApp
 {
     public partial class MainForm : Form
     {
-
+        // List to hold all Product collections as Inventory
         private List<Product> allProducts = new List<Product>();
 
         public MainForm()
         {
             InitializeComponent(); // code is written in seperate designer.cs file
+            
             LoginForm frm = new LoginForm();
             frm.ShowDialog();
         }
@@ -41,7 +42,18 @@ namespace WareHouseApp
         private void OnFileOpen(object sender, EventArgs e)
         {
             OpenFileDialog dlg = new OpenFileDialog();
-            dlg.ShowDialog();
+            if(dlg.ShowDialog() == DialogResult.OK)
+            {
+                string FileName = dlg.FileName;
+                FileStream stream = new FileStream(FileName, FileMode.Open);
+                BinaryFormatter bf = new BinaryFormatter();
+                this.allProducts = (List<Product>)bf.Deserialize(stream);
+                stream.Close();
+            }
+            Display();
+            //Bind List to DataGridView.
+            this.dataProductsGridView.DataSource = null;
+            this.dataProductsGridView.DataSource = allProducts;
         }
 
         private void OnFileSaveAs(object sender, EventArgs e)
