@@ -529,7 +529,7 @@
             this.dataProductsGridView.Name = "dataProductsGridView";
             this.dataProductsGridView.RowHeadersWidth = 51;
             this.dataProductsGridView.RowTemplate.Height = 24;
-            this.dataProductsGridView.Size = new System.Drawing.Size(584, 166);
+            this.dataProductsGridView.Size = new System.Drawing.Size(584, 184);
             this.dataProductsGridView.TabIndex = 28;
             // 
             // MainForm
