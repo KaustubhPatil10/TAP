@@ -5,6 +5,7 @@ using System.IO;
 using Membership;
 using Catalog;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Linq;
 
 namespace WareHouseApp
 {
@@ -33,18 +34,21 @@ namespace WareHouseApp
 
 
         // Event Handler
-       
+        private string currentFileName;
+
         private void OnFileExit(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        
         private void OnFileOpen(object sender, EventArgs e)
         {
             OpenFileDialog dlg = new OpenFileDialog();
             if(dlg.ShowDialog() == DialogResult.OK)
             {
                 string FileName = dlg.FileName;
+                currentFileName = FileName;
                 FileStream stream = new FileStream(FileName, FileMode.Open);
                 BinaryFormatter bf = new BinaryFormatter();
                 this.allProducts = (List<Product>)bf.Deserialize(stream);
@@ -64,6 +68,17 @@ namespace WareHouseApp
                 string fileName = dlg.FileName;  // get the name of the file selected
                 FileStream stream = new FileStream(fileName, FileMode.OpenOrCreate);
                 BinaryFormatter bf = new BinaryFormatter();
+                bf.Serialize(stream, allProducts);
+                stream.Close();
+            }
+        }
+
+        private void OnFileSave(object sender, EventArgs e)
+        {
+           if(!string.IsNullOrEmpty(currentFileName))
+            {
+                FileStream stream = new FileStream(currentFileName, FileMode.OpenOrCreate);
+                BinaryFormatter bf = new BinaryFormatter(); 
                 bf.Serialize(stream, allProducts);
                 stream.Close();
             }
@@ -100,11 +115,6 @@ namespace WareHouseApp
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void OnInsertProduct(object sender, EventArgs e)
         {
 
@@ -137,6 +147,63 @@ namespace WareHouseApp
             this.dataProductsGridView.DataSource = allProducts;
 
         }
+
+        private void OnUpdateProduct(object sender, EventArgs e)
+        {
+            // Get the product ID to find the product to upate
+            int idToUpdate = int.Parse(this.txtProductID.Text);
+
+            // Find the product in the list by ID
+            Product productToUpdate = allProducts.FirstOrDefault(p => p.ID == idToUpdate);
+
+            // check if product exist in the list
+            if(productToUpdate != null)
+            {
+                // Update the product's properties with the new values from the textboxes
+                productToUpdate.Title = this.txtProductTitle.Text;
+                productToUpdate.Description = this.txtProductDescription.Text;
+                productToUpdate.UnitPrice = float.Parse(this.txtUnitPrice.Text);
+                productToUpdate.Quantity = int.Parse(this.txtQuantity.Text);
+
+                //Bind List to DataGridView.
+                this.dataProductsGridView.DataSource = null;
+                this.dataProductsGridView.DataSource = allProducts;
+            }
+            else
+            {
+                //If product is not found, show a message
+                MessageBox.Show("Product not found");
+            }
+
+        }
+
+        private void OnRemoveProduct(object sender, EventArgs e)
+        {
+            // Get the product ID to find the product to remove
+            int idToRemove = int.Parse(this.txtProductID.Text);
+
+            // Find the product in the list by ID
+            Product productToRemove = allProducts.FirstOrDefault(p => p.ID == idToRemove);
+
+            // Check if the product exists in the list
+            if (productToRemove != null)
+            {
+                // Remove the product from the list
+                allProducts.Remove(productToRemove);
+
+                //Bind List to DataGridView.
+                this.dataProductsGridView.DataSource = null;
+                this.dataProductsGridView.DataSource = allProducts;
+            }
+            else
+            {
+                //If product is not found, show a message
+                MessageBox.Show("Product not found");
+            }
+        }
+
+
+
 
 
         private int current = 0;
@@ -175,5 +242,7 @@ namespace WareHouseApp
             this.txtUnitPrice.Text = theProduct.UnitPrice.ToString();
             this.txtQuantity.Text = theProduct.Quantity.ToString();
         }
+
+        
     }
 }

@@ -4,3 +4,9 @@ C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_20
 C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\Catalog\obj\Debug\Catalog.csproj.CoreCompileInputs.cache
 C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\Catalog\obj\Debug\Catalog.dll
 C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\Catalog\obj\Debug\Catalog.pdb
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\AmazonOnline\Catalog\bin\Debug\Catalog.dll
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\AmazonOnline\Catalog\bin\Debug\Catalog.pdb
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\AmazonOnline\Catalog\obj\Debug\Catalog.csproj.AssemblyReference.cache
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\AmazonOnline\Catalog\obj\Debug\Catalog.csproj.CoreCompileInputs.cache
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\AmazonOnline\Catalog\obj\Debug\Catalog.dll
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\AmazonOnline\Catalog\obj\Debug\Catalog.pdb
