@@ -7,3 +7,12 @@ C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_20
 C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\ShoppingCart\obj\Debug\Shopping.CB5956BC.Up2Date
 C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\ShoppingCart\obj\Debug\ShoppingCart.dll
 C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\ShoppingCart\obj\Debug\ShoppingCart.pdb
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\AmazonOnline\ShoppingCart\bin\Debug\ShoppingCart.dll
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\AmazonOnline\ShoppingCart\bin\Debug\ShoppingCart.pdb
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\AmazonOnline\ShoppingCart\bin\Debug\Catalog.dll
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\AmazonOnline\ShoppingCart\bin\Debug\Catalog.pdb
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\AmazonOnline\ShoppingCart\obj\Debug\ShoppingCart.csproj.AssemblyReference.cache
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\AmazonOnline\ShoppingCart\obj\Debug\ShoppingCart.csproj.CoreCompileInputs.cache
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\AmazonOnline\ShoppingCart\obj\Debug\Shopping.CB5956BC.Up2Date
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\AmazonOnline\ShoppingCart\obj\Debug\ShoppingCart.dll
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\AmazonOnline\ShoppingCart\obj\Debug\ShoppingCart.pdb

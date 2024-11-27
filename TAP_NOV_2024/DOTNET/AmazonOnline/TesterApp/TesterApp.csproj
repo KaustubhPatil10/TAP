@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TesterApp.EventDemoTest</StartupObject>
+    <StartupObject>TesterApp.LINQTest</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -68,6 +68,7 @@
     <Compile Include="EventDemoTest.cs" />
     <Compile Include="InheritanceTest.cs" />
     <Compile Include="LanguageFeaturesTest.cs" />
+    <Compile Include="LINQTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PurchaseOrderTest.cs" />
@@ -94,6 +95,10 @@
     <ProjectReference Include="..\Banking\Banking.csproj">
       <Project>{ef94eecb-24e8-4cb4-99ac-d0a408a916de}</Project>
       <Name>Banking</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{3a71ca80-5cb5-4320-b2db-60246711370b}</Project>
+      <Name>BLL</Name>
     </ProjectReference>
     <ProjectReference Include="..\Catalog\Catalog.csproj">
       <Project>{061e570b-6bc6-438a-9f55-550bdfec13d9}</Project>

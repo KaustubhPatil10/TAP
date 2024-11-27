@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B51FE52A-DB9D-44E4-BB4B-448606DC7FB7}|WareHouseApp\\WareHouseApp.csproj|c:\\users\\kaust\\desktop\\kaustubh data\\tap\\ravi_sir_mentor\\src\\tap\\tap_nov_2024\\dotnet\\amazononline\\warehouseapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B51FE52A-DB9D-44E4-BB4B-448606DC7FB7}|WareHouseApp\\WareHouseApp.csproj|solutionrelative:warehouseapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|c:\\users\\kaust\\desktop\\kaustubh data\\tap\\ravi_sir_mentor\\src\\tap\\tap_nov_2024\\dotnet\\amazononline\\testerapp\\linqtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\linqtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B51FE52A-DB9D-44E4-BB4B-448606DC7FB7}|WareHouseApp\\WareHouseApp.csproj|C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\warehouseapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B51FE52A-DB9D-44E4-BB4B-448606DC7FB7}|WareHouseApp\\WareHouseApp.csproj|solutionrelative:warehouseapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B51FE52A-DB9D-44E4-BB4B-448606DC7FB7}|WareHouseApp\\WareHouseApp.csproj|C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\warehouseapp\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B51FE52A-DB9D-44E4-BB4B-448606DC7FB7}|WareHouseApp\\WareHouseApp.csproj|solutionrelative:warehouseapp\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B51FE52A-DB9D-44E4-BB4B-448606DC7FB7}|WareHouseApp\\WareHouseApp.csproj|C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\warehouseapp\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B51FE52A-DB9D-44E4-BB4B-448606DC7FB7}|WareHouseApp\\WareHouseApp.csproj|solutionrelative:warehouseapp\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B51FE52A-DB9D-44E4-BB4B-448606DC7FB7}|WareHouseApp\\WareHouseApp.csproj|C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\warehouseapp\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B51FE52A-DB9D-44E4-BB4B-448606DC7FB7}|WareHouseApp\\WareHouseApp.csproj|solutionrelative:warehouseapp\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B51FE52A-DB9D-44E4-BB4B-448606DC7FB7}|WareHouseApp\\WareHouseApp.csproj|C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\warehouseapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B51FE52A-DB9D-44E4-BB4B-448606DC7FB7}|WareHouseApp\\WareHouseApp.csproj|solutionrelative:warehouseapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A71CA80-5CB5-4320-B2DB-60246711370B}|BLL\\BLL.csproj|c:\\users\\kaust\\desktop\\kaustubh data\\tap\\ravi_sir_mentor\\src\\tap\\tap_nov_2024\\dotnet\\amazononline\\bll\\businessmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A71CA80-5CB5-4320-B2DB-60246711370B}|BLL\\BLL.csproj|solutionrelative:bll\\businessmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,73 +23,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\WareHouseApp\\MainForm.cs",
-              "RelativeDocumentMoniker": "WareHouseApp\\MainForm.cs",
-              "ToolTip": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\WareHouseApp\\MainForm.cs",
-              "RelativeToolTip": "WareHouseApp\\MainForm.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAwEoAAAAAAAAAAAAAAA==",
+              "Title": "LINQTest.cs",
+              "DocumentMoniker": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\LINQTest.cs",
+              "RelativeDocumentMoniker": "TesterApp\\LINQTest.cs",
+              "ToolTip": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\LINQTest.cs",
+              "RelativeToolTip": "TesterApp\\LINQTest.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T10:29:12.337Z",
+              "WhenOpened": "2024-11-27T10:53:23.788Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\WareHouseApp\\MainForm.Designer.cs",
-              "RelativeDocumentMoniker": "WareHouseApp\\MainForm.Designer.cs",
-              "ToolTip": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\WareHouseApp\\MainForm.Designer.cs",
-              "RelativeToolTip": "WareHouseApp\\MainForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T09:05:24.886Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\WareHouseApp\\MainForm.cs",
-              "RelativeDocumentMoniker": "WareHouseApp\\MainForm.cs",
-              "ToolTip": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\WareHouseApp\\MainForm.cs [Design]",
-              "RelativeToolTip": "WareHouseApp\\MainForm.cs [Design]",
+              "Title": "BusinessManager.cs",
+              "DocumentMoniker": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\BLL\\BusinessManager.cs",
+              "RelativeDocumentMoniker": "BLL\\BusinessManager.cs",
+              "ToolTip": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\BLL\\BusinessManager.cs",
+              "RelativeToolTip": "BLL\\BusinessManager.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T08:45:06.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\WareHouseApp\\LoginForm.Designer.cs",
-              "RelativeDocumentMoniker": "WareHouseApp\\LoginForm.Designer.cs",
-              "ToolTip": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\WareHouseApp\\LoginForm.Designer.cs",
-              "RelativeToolTip": "WareHouseApp\\LoginForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T13:29:56.885Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\WareHouseApp\\LoginForm.cs",
-              "RelativeDocumentMoniker": "WareHouseApp\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\WareHouseApp\\LoginForm.cs [Design]",
-              "RelativeToolTip": "WareHouseApp\\LoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T12:54:41.917Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\WareHouseApp\\Program.cs",
-              "RelativeDocumentMoniker": "WareHouseApp\\Program.cs",
-              "ToolTip": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\WareHouseApp\\Program.cs",
-              "RelativeToolTip": "WareHouseApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T08:48:22.821Z"
+              "WhenOpened": "2024-11-26T09:32:26.595Z",
+              "EditorCaption": ""
             }
           ]
         }

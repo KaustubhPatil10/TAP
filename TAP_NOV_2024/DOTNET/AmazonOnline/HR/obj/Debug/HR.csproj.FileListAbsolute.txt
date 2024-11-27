@@ -4,3 +4,9 @@ C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_20
 C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\HR\obj\Debug\HR.csproj.CoreCompileInputs.cache
 C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\HR\obj\Debug\HR.dll
 C:\Users\kaust\OneDrive\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP_NOV_2024\DOTNET\AmazonOnline\HR\obj\Debug\HR.pdb
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\AmazonOnline\HR\bin\Debug\HR.dll
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\AmazonOnline\HR\bin\Debug\HR.pdb
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\AmazonOnline\HR\obj\Debug\HR.csproj.AssemblyReference.cache
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\AmazonOnline\HR\obj\Debug\HR.csproj.CoreCompileInputs.cache
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\AmazonOnline\HR\obj\Debug\HR.dll
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\AmazonOnline\HR\obj\Debug\HR.pdb
