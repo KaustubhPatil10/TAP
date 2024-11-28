@@ -4,27 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Catalog;
+using DAL;
 
 namespace BLL
 {
     public static class BusinessManager
     {
 
-        public static List<Product> GetDataFromDatabase()
+        public static IEnumerable<Product> GetDataFromDatabase()
         {
-            // Invoke backend data into .NET application
-            // needed database connectivity
-            // you need to use 
-            // 1. ADO.NET Object Model (JDBC) or  ---> ActiveX Data Objects
-            // 2. Entity Framework (Hibernate)
+            List<Product> allProducts = CatalogDBManager.GetAllProducts();
 
-
-
-            // connect to database
-            // query against database using SQL
-            // get resultset from Query Processing
-            // Create List of Products from resultset
-            // return List of Products
+            return allProducts;
         }
         public static List<Product> GetAllProducts()
         {
