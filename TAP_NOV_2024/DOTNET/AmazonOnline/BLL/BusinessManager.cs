@@ -10,16 +10,12 @@ namespace BLL
 {
     public static class BusinessManager
     {
-
-        public static IEnumerable<Product> GetDataFromDatabase()
-        {
-            List<Product> allProducts = CatalogDBManager.GetAllProducts();
-
+     public static IEnumerable<Product> GetAllProducts()
+     {
+            IEnumerable<Product> allProducts = CatalogDBManager.GetAllProducts();
             return allProducts;
-        }
-        public static List<Product> GetAllProducts()
-        {
-            List<Product> allProducts = new List<Product>();
+            #region hardcoded way
+            /* List<Product> allProducts = new List<Product>();
             allProducts.Add(new Product { ID = 1, Title = "Gerbera", Description = "Wedding FLowers", UnitPrice = 6,  Quantity = 5000 });
             allProducts.Add(new Product { ID = 2, Title = "Rose", Description = "Valentine FLowers", UnitPrice = 6, Quantity = 7000 });
             allProducts.Add(new Product { ID = 3, Title = "Lotus", Description = "Worship FLowers", UnitPrice = 6, Quantity = 0 });
@@ -34,14 +30,15 @@ namespace BLL
             allProducts.Add(new Product { ID = 12, Title = "Orchid", Description = "Orchids are exotic and beautiful making a perfect bouquet", UnitPrice = 6, Quantity = 700 });
             allProducts.Add(new Product { ID = 13, Title = "Statice", Description = "Surprise them with this fresh, fabulous array of Static flowers", UnitPrice = 6, Quantity = 1500 });
             allProducts.Add(new Product { ID = 14, Title = "Sunflower", Description = "Sunflowers express your pure love", UnitPrice = 6, Quantity = 2500 });
-            allProducts.Add(new Product { ID = 15, Title = "Tulip", Description = "Tulips are the quintessential spring flower and available from January", UnitPrice = 6, Quantity = 10000 });
-
-            return allProducts;
-        }
+            allProducts.Add(new Product { ID = 15, Title = "Tulip", Description = "Tulips are the quintessential spring flower and available from January", UnitPrice = 6, Quantity = 10000 }); */
+            #endregion
+     }
 
         public static IEnumerable<Product> GetSoldOutProducts()
         {
-            List<Product> products = GetAllProducts();
+            IEnumerable<Product> products = GetAllProducts();
+            return products;
+
             // apply filter
             // apply some business query
             // var is used to represent a Dynamic Variable.
@@ -49,11 +46,11 @@ namespace BLL
             // var is known as a Data Type.
             // LINQ: Language Intergated Query
             // var soldOutProducts = from product in products select product;
-            var soldOutProducts = from product in products
+            /*var soldOutProducts = from product in products
                                      where product.Quantity == 0
                                      select product;
-            return soldOutProducts;
-            // return products;
+            return soldOutProducts; */
+
         }
     }
 }

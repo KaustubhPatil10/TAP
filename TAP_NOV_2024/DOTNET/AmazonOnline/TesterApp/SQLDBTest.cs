@@ -12,12 +12,13 @@ namespace TesterApp
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Database Connectivity Program");
-            IEnumerable<Product> allProducts = BusinessManager.GetDataFromDatabase();
+
+            IEnumerable<Product> allProducts = BusinessManager.GetAllProducts();
             foreach (Product product in allProducts)
             {
-                Console.WriteLine("Title = {0}", product.Title);
+                Console.WriteLine("Title = {0}, Quantity = {1}", product.Title, product.Quantity);
+                Console.WriteLine("Description = {0}", product.Description);
             }
-            
             Console.ReadLine();
         }
     }
