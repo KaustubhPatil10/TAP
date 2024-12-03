@@ -12,8 +12,10 @@ namespace BLL
     {
      public static IEnumerable<Product> GetAllProducts()
      {
-            IEnumerable<Product> allProducts = CatalogDBManager.GetAllProducts();
+            //IEnumerable<Product> allProducts = CatalogDBManager.GetAllProducts();
+            IEnumerable<Product> allProducts = CatalogDBManager.GetAllProductsUsingDisconnected();
             return allProducts;
+
             #region hardcoded way
             /* List<Product> allProducts = new List<Product>();
             allProducts.Add(new Product { ID = 1, Title = "Gerbera", Description = "Wedding FLowers", UnitPrice = 6,  Quantity = 5000 });
