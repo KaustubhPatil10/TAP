@@ -10,6 +10,12 @@ namespace BLL
 {
     public static class BusinessManager
     {
+
+        public static Product GetProduct(int id)
+        {
+            return CatalogDBManager.GetProductByID(id);
+        }
+
      public static IEnumerable<Product> GetAllProducts()
      {
             //IEnumerable<Product> allProducts = CatalogDBManager.GetAllProducts();
@@ -53,6 +59,17 @@ namespace BLL
                                      select product;
             return soldOutProducts; */
 
+        }
+
+        public static bool UpdateProduct(Product theProduct)
+        {
+            return CatalogDBManager.Update(theProduct);
+        }
+
+
+        public static bool DeleteProduct(int id)
+        {
+            return CatalogDBManager.Delete(id);
         }
     }
 }

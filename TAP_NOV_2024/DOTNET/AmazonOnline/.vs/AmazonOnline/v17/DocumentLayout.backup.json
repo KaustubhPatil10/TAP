@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C44303D5-DB51-4732-A6C0-C244CE0D602F}|DAL\\DAL.csproj|C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\dal\\catalogdbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C44303D5-DB51-4732-A6C0-C244CE0D602F}|DAL\\DAL.csproj|c:\\users\\kaust\\desktop\\kaustubh data\\tap\\ravi_sir_mentor\\src\\tap\\tap_nov_2024\\dotnet\\amazononline\\dal\\catalogdbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C44303D5-DB51-4732-A6C0-C244CE0D602F}|DAL\\DAL.csproj|solutionrelative:dal\\catalogdbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -13,10 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\testerapp\\sqldbtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\sqldbtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|c:\\users\\kaust\\desktop\\kaustubh data\\tap\\ravi_sir_mentor\\src\\tap\\tap_nov_2024\\dotnet\\amazononline\\testerapp\\linqtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47AC23CE-5D28-466C-8DC6-8FF8FB6E3560}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\linqtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,15 +26,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BusinessManager.cs",
-              "DocumentMoniker": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\BLL\\BusinessManager.cs",
-              "RelativeDocumentMoniker": "BLL\\BusinessManager.cs",
-              "ToolTip": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\BLL\\BusinessManager.cs*",
-              "RelativeToolTip": "BLL\\BusinessManager.cs*",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "SQLDBTest.cs",
+              "DocumentMoniker": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\SQLDBTest.cs",
+              "RelativeDocumentMoniker": "TesterApp\\SQLDBTest.cs",
+              "ToolTip": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\SQLDBTest.cs",
+              "RelativeToolTip": "TesterApp\\SQLDBTest.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T11:52:50.801Z",
+              "WhenOpened": "2024-11-28T11:48:21.353Z",
               "EditorCaption": ""
             },
             {
@@ -49,35 +45,22 @@
               "RelativeDocumentMoniker": "DAL\\CatalogDBManager.cs",
               "ToolTip": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\DAL\\CatalogDBManager.cs",
               "RelativeToolTip": "DAL\\CatalogDBManager.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAYwE0AAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAOgAAAAAAAAAAAAIwPYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T11:58:58.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SQLDBTest.cs",
-              "DocumentMoniker": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\SQLDBTest.cs",
-              "RelativeDocumentMoniker": "TesterApp\\SQLDBTest.cs",
-              "ToolTip": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\SQLDBTest.cs",
-              "RelativeToolTip": "TesterApp\\SQLDBTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "BusinessManager.cs",
+              "DocumentMoniker": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\BLL\\BusinessManager.cs",
+              "RelativeDocumentMoniker": "BLL\\BusinessManager.cs",
+              "ToolTip": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\BLL\\BusinessManager.cs",
+              "RelativeToolTip": "BLL\\BusinessManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T11:48:21.353Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LINQTest.cs",
-              "DocumentMoniker": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\LINQTest.cs",
-              "RelativeDocumentMoniker": "TesterApp\\LINQTest.cs",
-              "ToolTip": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\AmazonOnline\\TesterApp\\LINQTest.cs",
-              "RelativeToolTip": "TesterApp\\LINQTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T09:13:56.561Z",
+              "WhenOpened": "2024-11-28T11:52:50.801Z",
               "EditorCaption": ""
             }
           ]

@@ -13,6 +13,13 @@ namespace TesterApp
         {
             Console.WriteLine("Welcome to Database Connectivity Program");
 
+            bool status = false;
+
+            Product theProduct = BusinessManager.GetProduct(6);
+            theProduct.UnitPrice = 99;
+            theProduct.Quantity = 9999;
+            status = BusinessManager.UpdateProduct(theProduct);
+            //status = BusinessManager.DeleteProduct(7);
             IEnumerable<Product> allProducts = BusinessManager.GetAllProducts();
             foreach (Product product in allProducts)
             {
