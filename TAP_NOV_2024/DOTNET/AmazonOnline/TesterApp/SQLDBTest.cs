@@ -15,10 +15,20 @@ namespace TesterApp
 
             bool status = false;
 
-            Product theProduct = BusinessManager.GetProduct(6);
-            theProduct.UnitPrice = 99;
-            theProduct.Quantity = 9999;
-            status = BusinessManager.UpdateProduct(theProduct);
+            Product newProduct = new Product();
+            newProduct.ID = 7;
+            newProduct.Title = "Gerbera flower";
+            newProduct.Description = " Wedding Flower used for designing";
+            newProduct.UnitPrice = 20;
+            newProduct.Quantity = 2500;
+            status = BusinessManager.InsertProduct(newProduct);
+
+            //Product theProduct = BusinessManager.GetProduct(5);
+            //theProduct.UnitPrice = 199;
+            //theProduct.Quantity = 19999;
+            //status = BusinessManager.UpdateProduct(theProduct);
+
+
             //status = BusinessManager.DeleteProduct(7);
             IEnumerable<Product> allProducts = BusinessManager.GetAllProducts();
             foreach (Product product in allProducts)

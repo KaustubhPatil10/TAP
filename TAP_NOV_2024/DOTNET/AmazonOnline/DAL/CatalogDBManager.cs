@@ -188,6 +188,7 @@ namespace DAL
                 IDbConnection con = new SqlConnection();
                 con.ConnectionString = connectionString;
                 IDbCommand cmd = new SqlCommand();
+                cmd.Connection = con;
                 string query = "INSERT INTO flowers (productID, title, description, price, quantity)" +
                                "VALUES (@Id, @Title, @Description, @Price, @Quantity)";
                 cmd.CommandText = query;
@@ -196,7 +197,7 @@ namespace DAL
                 cmd.Parameters.Add(new SqlParameter("@Description", theProduct.Description));
                 cmd.Parameters.Add(new SqlParameter("@Price", theProduct.UnitPrice));
                 cmd.Parameters.Add(new SqlParameter("@Quantity", theProduct.Quantity));
-
+                con.Open();
                 cmd.ExecuteNonQuery();
                 status = true;
                 if(con.State == ConnectionState.Open)

@@ -61,6 +61,11 @@ namespace BLL
 
         }
 
+        public static bool InsertProduct(Product theProduct)
+        {
+            return CatalogDBManager.Insert(theProduct);
+        }
+
         public static bool UpdateProduct(Product theProduct)
         {
             return CatalogDBManager.Update(theProduct);
