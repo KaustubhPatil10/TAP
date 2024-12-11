@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TesterApp.SQLDBTest</StartupObject>
+    <StartupObject>TesterApp.GCTest</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -66,6 +66,7 @@
     <Compile Include="constreadonlyTest.cs" />
     <Compile Include="DelegationTest.cs" />
     <Compile Include="EventDemoTest.cs" />
+    <Compile Include="GCTest.cs" />
     <Compile Include="InheritanceTest.cs" />
     <Compile Include="LanguageFeaturesTest.cs" />
     <Compile Include="LINQTest.cs" />

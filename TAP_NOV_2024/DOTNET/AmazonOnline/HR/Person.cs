@@ -31,5 +31,11 @@ namespace HR
         {
             return FirstName + " " + LastName + " " + BirthDate + " ";
         }
+
+        ~Person()
+        {
+
+        }
+    
     }
 }
