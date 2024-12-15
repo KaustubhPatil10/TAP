@@ -181,7 +181,7 @@ namespace DAL
         public static bool Insert(Product theProduct)
         {
             bool status = false;
-            // uisng connected data access mode
+            // using connected data access mode
 
             try
             {

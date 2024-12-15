@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HR
 {
-    public class Person
+    public class Person: IDisposable
     {
 
         public Person()
@@ -32,10 +32,34 @@ namespace HR
             return FirstName + " " + LastName + " " + BirthDate + " ";
         }
 
-        ~Person()
+        public void show()
         {
 
         }
-    
+
+        public void Dispose()
+        {
+            // Deinitializing system resources before object get Destroyed
+
+            // Releasing system resources which were used
+
+            // database connections,
+            // multiple threads,
+            // files
+
+            GC.SuppressFinalize(this);
+        }
+
+        ~Person()
+        {
+            // Deinitializing system resources before object get Destroyed
+
+            // Releasing system resources which were used
+
+            // database connections,
+            // multiple threads,
+            // files
+        }
+
     }
 }
