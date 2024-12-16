@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adity\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\TAP_DOTNET_SOLUTION\\HelloApp\\HelloApp.csproj": {}
+    "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\TAP_DOTNET_SOLUTION\\HelloApp\\HelloApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adity\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\TAP_DOTNET_SOLUTION\\HelloApp\\HelloApp.csproj": {
+    "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\TAP_DOTNET_SOLUTION\\HelloApp\\HelloApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adity\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\TAP_DOTNET_SOLUTION\\HelloApp\\HelloApp.csproj",
+        "projectUniqueName": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\TAP_DOTNET_SOLUTION\\HelloApp\\HelloApp.csproj",
         "projectName": "HelloApp",
-        "projectPath": "C:\\Users\\adity\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\TAP_DOTNET_SOLUTION\\HelloApp\\HelloApp.csproj",
-        "packagesPath": "C:\\Users\\adity\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adity\\OneDrive\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP_NOV_2024\\DOTNET\\TAP_DOTNET_SOLUTION\\HelloApp\\obj\\",
+        "projectPath": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\TAP_DOTNET_SOLUTION\\HelloApp\\HelloApp.csproj",
+        "packagesPath": "C:\\Users\\kaust\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kaust\\Desktop\\kaustubh data\\TAP\\Ravi_sir_MENTOR\\src\\TAP\\TAP_NOV_2024\\DOTNET\\TAP_DOTNET_SOLUTION\\HelloApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\adity\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kaust\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
