@@ -11,6 +11,8 @@ namespace RecruitmentApp
     // Do not call us, we will call you. 
     // HR Department will have JobPortal
 
+
+    // Business Entity
     public class Resume
     {
         public string Name {get; set;}
@@ -28,20 +30,20 @@ namespace RecruitmentApp
 
 
     // Singleton class
-
+    // Business Process Management
     public class JobPortal
     {
         private static JobPortal portal = new JobPortal();
 
-        private List<Resume> resumeList = new List<Resume>();
+        public List<Resume> resumeList = new List<Resume>();
 
 
-        private JobPortal()
+        public JobPortal()
         {
 
         }
 
-        public static JobPortal GetJob()
+        public static JobPortal get()
         {
             return portal;
         }
@@ -69,7 +71,6 @@ namespace RecruitmentApp
 
 
 
-
     class Program
     {
         static void Main(string[] args)
@@ -77,14 +78,15 @@ namespace RecruitmentApp
 
             // Testing
             // Don't call us, we will call you
-            // 
-            JobPortal.get().uploadContent("Kautubhpatil@gmail.com", "Kaustubh Patil", "A C# - .NET Developer")
-            JobPortal.get().uploadContent("Pallavipatil@gmail.com", "Pallavi Patil", "A Python Developer")
-            JobPortal.get().uploadContent("SaiRajPatil@gmail.com", "SaiRaj Patil", "A Statistics Master")
-            JobPortal.get().uploadContent("RaviTambade@gmail.com", "Ravi Tambade", "Transflower Mentor")
-            JobPortal.get().uploadContent("Ajinkyatambade@gmail.com", "Ajinkya Tambade", "A .NET Developer")
-            JobPortal.get().uploadContent("Pranav@gmail.com", "Pranav", "A Java Developer")
-            JobPortal.get().uploadContent("Sharayu@gmail.com", "Sharayu", "A Python - Django Developer")
+            // get fn is a static function and 
+            // member fn is called using a object
+            JobPortal.get().uploadContent("Kautubhpatil@gmail.com", "Kaustubh Patil", "A C# - .NET Developer");
+            JobPortal.get().uploadContent("Pallavipatil@gmail.com", "Pallavi Patil", "A Python Developer");
+            JobPortal.get().uploadContent("SaiRajPatil@gmail.com", "SaiRaj Patil", "A Statistics Master");
+            JobPortal.get().uploadContent("RaviTambade@gmail.com", "Ravi Tambade", "Transflower Mentor");
+            JobPortal.get().uploadContent("Ajinkyatambade@gmail.com", "Ajinkya Tambade", "A .NET Developer");
+            JobPortal.get().uploadContent("Pranav@gmail.com", "Pranav", "A Java Developer");
+            JobPortal.get().uploadContent("Sharayu@gmail.com", "Sharayu", "A Python - Django Developer");
             JobPortal.get().triggerCampusing();
         }
     }

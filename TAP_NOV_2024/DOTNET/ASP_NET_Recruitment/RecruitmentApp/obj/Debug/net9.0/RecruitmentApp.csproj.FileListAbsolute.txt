@@ -1,0 +1,15 @@
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\ASP_NET_Recruitment\RecruitmentApp\bin\Debug\net9.0\RecruitmentApp.exe
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\ASP_NET_Recruitment\RecruitmentApp\bin\Debug\net9.0\RecruitmentApp.deps.json
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\ASP_NET_Recruitment\RecruitmentApp\bin\Debug\net9.0\RecruitmentApp.runtimeconfig.json
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\ASP_NET_Recruitment\RecruitmentApp\bin\Debug\net9.0\RecruitmentApp.dll
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\ASP_NET_Recruitment\RecruitmentApp\bin\Debug\net9.0\RecruitmentApp.pdb
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\ASP_NET_Recruitment\RecruitmentApp\obj\Debug\net9.0\RecruitmentApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\ASP_NET_Recruitment\RecruitmentApp\obj\Debug\net9.0\RecruitmentApp.AssemblyInfoInputs.cache
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\ASP_NET_Recruitment\RecruitmentApp\obj\Debug\net9.0\RecruitmentApp.AssemblyInfo.cs
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\ASP_NET_Recruitment\RecruitmentApp\obj\Debug\net9.0\RecruitmentApp.csproj.CoreCompileInputs.cache
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\ASP_NET_Recruitment\RecruitmentApp\obj\Debug\net9.0\RecruitmentApp.sourcelink.json
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\ASP_NET_Recruitment\RecruitmentApp\obj\Debug\net9.0\RecruitmentApp.dll
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\ASP_NET_Recruitment\RecruitmentApp\obj\Debug\net9.0\refint\RecruitmentApp.dll
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\ASP_NET_Recruitment\RecruitmentApp\obj\Debug\net9.0\RecruitmentApp.pdb
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\ASP_NET_Recruitment\RecruitmentApp\obj\Debug\net9.0\RecruitmentApp.genruntimeconfig.cache
+C:\Users\kaust\Desktop\kaustubh data\TAP\Ravi_sir_MENTOR\src\TAP\TAP_NOV_2024\DOTNET\ASP_NET_Recruitment\RecruitmentApp\obj\Debug\net9.0\ref\RecruitmentApp.dll
