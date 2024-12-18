@@ -38,12 +38,12 @@ namespace RecruitmentApp
         public List<Resume> resumeList = new List<Resume>();
 
 
-        public JobPortal()
+        private JobPortal()
         {
-
+            Console.WriteLine("new Job Portal instance created....");
         }
 
-        public static JobPortal get()
+        public static JobPortal Get()
         {
             return portal;
         }
@@ -80,14 +80,21 @@ namespace RecruitmentApp
             // Don't call us, we will call you
             // get fn is a static function and 
             // member fn is called using a object
-            JobPortal.get().uploadContent("Kautubhpatil@gmail.com", "Kaustubh Patil", "A C# - .NET Developer");
-            JobPortal.get().uploadContent("Pallavipatil@gmail.com", "Pallavi Patil", "A Python Developer");
-            JobPortal.get().uploadContent("SaiRajPatil@gmail.com", "SaiRaj Patil", "A Statistics Master");
-            JobPortal.get().uploadContent("RaviTambade@gmail.com", "Ravi Tambade", "Transflower Mentor");
-            JobPortal.get().uploadContent("Ajinkyatambade@gmail.com", "Ajinkya Tambade", "A .NET Developer");
-            JobPortal.get().uploadContent("Pranav@gmail.com", "Pranav", "A Java Developer");
-            JobPortal.get().uploadContent("Sharayu@gmail.com", "Sharayu", "A Python - Django Developer");
-            JobPortal.get().triggerCampusing();
+            // Access JobPortal
+            // Upload resumes
+
+            // Notify indirectly to all candidates
+            JobPortal portal = JobPortal.Get();
+
+            portal.uploadContent("Kaustubhpatil@gmail.com", "Kaustubh Patil", "A C# - .NET Developer");
+            portal.uploadContent("Pallavipatil@gmail.com", "Pallavi Patil", "A Python Developer");
+            portal.uploadContent("SaiRajPatil@gmail.com", "SaiRaj Patil", "A Statistics Master");
+            portal.uploadContent("RaviTambade@gmail.com", "Ravi Tambade", "Transflower Mentor");
+            portal.uploadContent("Ajinkyatambade@gmail.com", "Ajinkya Tambade", "A .NET Developer");
+            portal.uploadContent("Pranav@gmail.com", "Pranav", "A Java Developer");
+            portal.uploadContent("Sharayu@gmail.com", "Sharayu", "A Python - Django Developer");
+            // Initiating Business process by one broadcast behaviour
+            portal.triggerCampusing();
         }
     }
 }
